@@ -409,6 +409,7 @@ const layouts = ref([
   { title: 'NavbarNine', route: '/navbar-nine' },
   { title: 'NavbarTen', route: '/navbar-ten' },
   { title: 'navbar-eleven', route: '/navbar-eleven' },
+  { title: 'navbar-twelve', route: '/navbar-twelve' },
 ])
 
 const others = ref([

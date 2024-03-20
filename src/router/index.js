@@ -524,6 +524,11 @@ const router = createRouter({
       name: "navbar-eleven",
       component: () => import("../components/layouts/navbar-eleven.vue"),
     },
+    {
+      path: "/navbar-twelve",
+      name: "navbar-twelve",
+      component: () => import("../components/layouts/navbar-twelve.vue"),
+    },
 
     //other
     {
