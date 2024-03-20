@@ -3,7 +3,7 @@
     <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
       <div class="items-center hidden space-x-3 lg:flex">
         <img src="https://justfields.com/storage/projects/7M5rV059/day-134.jpg" class="h-6 mr-3 sm:h-9">
-        <router-link to="/"
+        <router-link to=""
           class="inline-flex text-white relative items-center py-[10px] px-[10px] text-sm font-medium hover:text-gray-300">Home</router-link>
         <nuxt-link to=""
           class="inline-flex text-white relative items-center py-[10px] px-[10px] text-sm font-medium hover:text-gray-300">Our
