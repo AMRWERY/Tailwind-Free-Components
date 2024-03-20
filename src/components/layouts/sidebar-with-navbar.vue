@@ -1,8 +1,8 @@
 <template>
   <nav class="bg-white border-gray-200 py-2.5 dark:bg-gray-700">
     <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
-      <div class="hidden lg:flex items-center space-x-3">
-        <img src="/compass.svg" class="h-6 mr-3 sm:h-9">
+      <div class="items-center hidden space-x-3 lg:flex">
+        <img src="https://justfields.com/storage/projects/7M5rV059/day-134.jpg" class="h-6 mr-3 sm:h-9">
         <router-link to="/"
           class="inline-flex text-white relative items-center py-[10px] px-[10px] text-sm font-medium hover:text-gray-300">Home</router-link>
         <nuxt-link to=""
@@ -15,7 +15,7 @@
           class="inline-flex text-white relative items-center py-[10px] px-[10px] text-sm font-medium hover:text-gray-300">Contact
           Us</router-link>
       </div>
-      <div class="flex items-center space-x-2 lg:order-2 ml-auto">
+      <div class="flex items-center ml-auto space-x-2 lg:order-2">
         <div class="hidden mt-2 mr-4 sm:inline-block">
           <span></span>
         </div>
