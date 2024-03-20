@@ -1,0 +1,16 @@
+@import "./base.css";
+
+body {
+  background-color: #f6f6f6;
+  /* font-family: "Poor Story", system-ui; */
+}
+
+.dark {
+  background-color: #0d2438;
+}
+
+@layer components {
+  .transit {
+    @apply transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300;
+  }
+}
