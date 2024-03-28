@@ -482,10 +482,14 @@ const content = ref([
 ])
 
 const callToAction = ref([
+  { title: 'call-to-action', route: '/call-to-action' },
   { title: 'call-to-action-one', route: '/call-to-action-one' },
   { title: 'call-to-action-two', route: '/call-to-action-two' },
   { title: 'call-to-action-three', route: '/call-to-action-three' },
   { title: 'call-to-action-four', route: '/call-to-action-four' },
+  { title: 'call-to-action-five', route: '/call-to-action-five' },
+  { title: 'call-to-action-six', route: '/call-to-action-six' },
+  { title: 'call-to-action-seven', route: '/call-to-action-seven' },
 ])
 
 const faq = ref([
