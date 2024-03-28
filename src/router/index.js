@@ -537,6 +537,16 @@ const router = createRouter({
       component: () => import("../components/carousel.vue"),
     },
     {
+      path: "/carousel-one",
+      name: "carousel-one",
+      component: () => import("../components/carousel-one.vue"),
+    },
+    {
+      path: "/carousel-two",
+      name: "carousel-two",
+      component: () => import("../components/carousel-two.vue"),
+    },
+    {
       path: "/best-selling",
       name: "BestSelling",
       component: () => import("../components/BestSelling.vue"),

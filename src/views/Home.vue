@@ -414,6 +414,8 @@ const layouts = ref([
 
 const others = ref([
   { title: 'carousel', route: '/carousel' },
+  { title: 'carousel-one', route: '/carousel-one' },
+  { title: 'carousel-two', route: '/carousel-two' },
   { title: 'BestSelling', route: '/best-selling' },
   { title: 'statistics', route: '/statistics' },
   { title: 'LatestNewsUpdate', route: '/latest-news-update' },
