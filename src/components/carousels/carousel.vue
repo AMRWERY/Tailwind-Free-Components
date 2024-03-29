@@ -7,6 +7,12 @@
             <img :src="item" class="object-cover w-full h-full">
           </div>
         </div>
+        <!-- Duplicate the first slide at the end -->
+        <div class="w-full">
+          <div class="flex items-center justify-center bg-gray-200 h-96 lg:h-full">
+            <img :src="items[0]" class="object-cover w-full h-full">
+          </div>
+        </div>
       </div>
     </div>
     <div class="absolute inset-y-0 left-0 flex items-center">
@@ -39,7 +45,7 @@ const currentIndex = ref(0);
 let intervalId;
 
 const nextSlide = () => {
-  if (currentIndex.value < items.length - 1) {
+  if (currentIndex.value < items.length) {
     currentIndex.value++;
   } else {
     currentIndex.value = 0;
@@ -50,14 +56,14 @@ const prevSlide = () => {
   if (currentIndex.value > 0) {
     currentIndex.value--;
   } else {
-    currentIndex.value = items.length - 1;
+    currentIndex.value = items.length;
   }
 };
 
 const startAutoPlay = () => {
   intervalId = setInterval(() => {
     nextSlide();
-  }, 4000); // Change interval to 4000 milliseconds (4 seconds)
+  }, 4000);
 };
 
 const stopAutoPlay = () => {

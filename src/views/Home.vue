@@ -119,7 +119,7 @@
           </router-link>
         </div>
       </div>
-      
+
       <!-- Others Components -->
       <span class="text-3xl font-semibold text-blue-600 underline">Others Components</span>
       <div class="grid grid-cols-1 mt-6 mb-16 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
@@ -427,7 +427,7 @@ const layouts = ref([
 ])
 
 const carousels = ref([
-{ title: 'carousel', route: '/carousel' },
+  { title: 'carousel', route: '/carousel' },
   { title: 'carousel-one', route: '/carousel-one' },
   { title: 'carousel-two', route: '/carousel-two' },
   { title: 'carousel-three', route: '/carousel-three' },
