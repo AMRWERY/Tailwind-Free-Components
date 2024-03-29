@@ -401,6 +401,7 @@ const userProfile = ref([
 ])
 
 const layouts = ref([
+  { title: 'navbar', route: '/navbar' },
   { title: 'sidebar-with-navbar', route: '/sidebar-with-navbar' },
   { title: 'FooterSix', route: '/footer-six' },
   { title: 'FooterThree', route: '/footer-three' },

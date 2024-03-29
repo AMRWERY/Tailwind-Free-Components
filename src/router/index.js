@@ -415,6 +415,11 @@ const router = createRouter({
 
     //layouts
     {
+      path: "/navbar",
+      name: "navbar",
+      component: () => import("../components/layouts/navbar.vue"),
+    },
+    {
       path: "/sidebar-with-navbar",
       name: "sidebar-with-navbar",
       component: () => import("../components/layouts/sidebar-with-navbar.vue"),
