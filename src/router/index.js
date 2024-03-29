@@ -530,22 +530,29 @@ const router = createRouter({
       component: () => import("../components/layouts/navbar-twelve.vue"),
     },
 
-    //other
+    //carousel
     {
       path: "/carousel",
       name: "carousel",
-      component: () => import("../components/carousel.vue"),
+      component: () => import("../components/carousels/carousel.vue"),
     },
     {
       path: "/carousel-one",
       name: "carousel-one",
-      component: () => import("../components/carousel-one.vue"),
+      component: () => import("../components/carousels/carousel-one.vue"),
     },
     {
       path: "/carousel-two",
       name: "carousel-two",
-      component: () => import("../components/carousel-two.vue"),
+      component: () => import("../components/carousels/carousel-two.vue"),
     },
+    {
+      path: "/carousel-three",
+      name: "carousel-three",
+      component: () => import("../components/carousels/carousel-three.vue"),
+    },
+
+    //other
     {
       path: "/best-selling",
       name: "BestSelling",

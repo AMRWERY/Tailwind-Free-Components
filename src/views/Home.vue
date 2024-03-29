@@ -106,6 +106,20 @@
         </div>
       </div>
 
+      <!-- Carousels Components -->
+      <span class="text-3xl font-semibold text-blue-600 underline">Carousels Components</span>
+      <div class="grid grid-cols-1 mt-6 mb-16 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+        <div class="relative group transit" v-for="carousel in carousels" :key="carousel">
+          <router-link :to="carousel.route">
+            <div class="w-full h-20 overflow-hidden bg-gray-200 rounded-md group-hover:opacity-75">
+              <div class="flex items-center justify-center h-full">
+                <p class="text-2xl font-semibold truncate">{{ carousel.title }}</p>
+              </div>
+            </div>
+          </router-link>
+        </div>
+      </div>
+      
       <!-- Others Components -->
       <span class="text-3xl font-semibold text-blue-600 underline">Others Components</span>
       <div class="grid grid-cols-1 mt-6 mb-16 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
@@ -412,10 +426,14 @@ const layouts = ref([
   { title: 'navbar-twelve', route: '/navbar-twelve' },
 ])
 
-const others = ref([
-  { title: 'carousel', route: '/carousel' },
+const carousels = ref([
+{ title: 'carousel', route: '/carousel' },
   { title: 'carousel-one', route: '/carousel-one' },
   { title: 'carousel-two', route: '/carousel-two' },
+  { title: 'carousel-three', route: '/carousel-three' },
+])
+
+const others = ref([
   { title: 'BestSelling', route: '/best-selling' },
   { title: 'statistics', route: '/statistics' },
   { title: 'LatestNewsUpdate', route: '/latest-news-update' },

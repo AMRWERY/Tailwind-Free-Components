@@ -8,7 +8,6 @@ module.exports = {
     aspectRatio: false,
   },
   plugins: [
-    require("@tailwindcss/typography"),
     require("@tailwindcss/forms"),
     require("@tailwindcss/aspect-ratio"),
   ],
