@@ -1,34 +1,38 @@
 <template>
   <div class="relative" @mouseenter="stopAutoPlay" @mouseleave="startAutoPlay">
-    <div class="overflow-hidden">
-      <div class="flex carousel" :style="{ transform: `translateX(-${currentIndex * 100}%)` }">
-        <div v-for="(item, index) in items" :key="index" class="w-full">
-          <div class="flex items-center justify-center bg-gray-200 h-96 lg:h-full">
-            <img :src="item" class="object-cover w-full h-full">
+      <div class="overflow-hidden">
+          <div class="flex carousel" :style="{ transform: `translateX(-${currentIndex * 100}%)` }">
+              <div v-for="(item, index) in items" :key="index" class="w-full">
+                  <div class="flex items-center justify-center bg-gray-200 h-96 lg:h-full">
+                      <img :src="item" class="object-cover w-full h-full">
+                  </div>
+              </div>
+              <!-- Duplicate the first slide at the end -->
+              <div class="w-full">
+                  <div class="flex items-center justify-center bg-gray-200 h-96 lg:h-full">
+                      <img :src="items[0]" class="object-cover w-full h-full">
+                  </div>
+              </div>
           </div>
-        </div>
-        <!-- Duplicate the first slide at the end -->
-        <div class="w-full">
-          <div class="flex items-center justify-center bg-gray-200 h-96 lg:h-full">
-            <img :src="items[0]" class="object-cover w-full h-full">
-          </div>
-        </div>
       </div>
-    </div>
-    <div class="absolute inset-y-0 left-0 flex items-center">
-      <button @click="prevSlide" class="text-gray-600 focus:outline-none">
-        <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-        </svg>
-      </button>
-    </div>
-    <div class="absolute inset-y-0 right-0 flex items-center">
-      <button @click="nextSlide" class="text-gray-600 focus:outline-none">
-        <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-        </svg>
-      </button>
-    </div>
+      <div class="absolute inset-y-0 left-0 flex items-center">
+          <button @click="prevSlide" class="absolute top-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer start-0 group focus:outline-none">
+              <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+              <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+              </svg>
+              </span>
+          </button>
+      </div>
+      <div class="absolute inset-y-0 right-0 flex items-center">
+          <button @click="nextSlide" class="absolute top-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer end-0 group focus:outline-none">
+              <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+              <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+          </span>
+          </button>
+      </div>
   </div>
 </template>
 
