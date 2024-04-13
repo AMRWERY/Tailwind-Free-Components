@@ -343,7 +343,8 @@ const router = createRouter({
     {
       path: "/newsletter-subscription-form",
       name: "newsletter-subscription-form",
-      component: () => import("../components/forms/newsletter-subscription-form.vue"),
+      component: () =>
+        import("../components/forms/newsletter-subscription-form.vue"),
     },
     {
       path: "/survey-form",
