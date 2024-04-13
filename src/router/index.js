@@ -337,8 +337,8 @@ const router = createRouter({
     },
     {
       path: "/form-seven",
-      name: "FormSeven",
-      component: () => import("../components/forms/FormSeven.vue"),
+      name: "form-seven",
+      component: () => import("../components/forms/form-seven.vue"),
     },
     {
       path: "/form-with-img",
@@ -395,10 +395,33 @@ const router = createRouter({
         import("../components/forms/auth-form/login-form-two-with-img.vue"),
     },
     {
+      path: "/login-form-seven",
+      name: "login-form-seven",
+      component: () =>
+        import("../components/forms/auth-form/login-form-seven.vue"),
+    },
+    {
+      path: "/sign-up-form",
+      name: "sign-up-form",
+      component: () => import("../components/forms/auth-form/sign-up-form.vue"),
+    },
+    {
       path: "/forget-password-one",
       name: "forget-password-one",
       component: () =>
         import("../components/forms/forget-password/forget-password-one.vue"),
+    },
+    {
+      path: "/forget-password-two",
+      name: "forget-password-two",
+      component: () =>
+        import("../components/forms/forget-password/forget-password-two.vue"),
+    },
+    {
+      path: "/forget-password-three",
+      name: "forget-password-three",
+      component: () =>
+        import("../components/forms/forget-password/forget-password-three.vue"),
     },
 
     //user-profile

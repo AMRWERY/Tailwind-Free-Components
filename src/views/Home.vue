@@ -392,7 +392,11 @@ const forms = ref([
   { title: 'login-form-six', route: '/login-form-six' },
   { title: 'login-form-three', route: '/login-form-three' },
   { title: 'LoginFormTwoWithImage', route: '/login-form-two-with-img' },
+  { title: 'login-form-seven', route: '/login-form-seven' },
+  { title: 'sign-up-form', route: '/sign-up-form' },
   { title: 'forget-password-one', route: '/forget-password-one' },
+  { title: 'forget-password-two', route: '/forget-password-two' },
+  { title: 'forget-password-three', route: '/forget-password-three' },
 ])
 
 const userProfile = ref([
