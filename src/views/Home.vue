@@ -384,6 +384,8 @@ const forms = ref([
   { title: 'credit-card-form', route: '/credit-card-form' },
   { title: 'form-seven', route: '/form-seven' },
   { title: 'newsletter-subscription-form', route: '/newsletter-subscription-form' },
+  { title: 'survey-form', route: '/survey-form' },
+  { title: 'form-for-editing-items', route: '/form-for-editing-items' },
   { title: 'form-with-img', route: '/form-with-img' },
   { title: 'form-with-img-three', route: '/form-with-img-three' },
   { title: 'login-form-five', route: '/login-form-five' },

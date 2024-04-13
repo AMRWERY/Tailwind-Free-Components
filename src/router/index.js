@@ -346,6 +346,16 @@ const router = createRouter({
       component: () => import("../components/forms/newsletter-subscription-form.vue"),
     },
     {
+      path: "/survey-form",
+      name: "survey-form",
+      component: () => import("../components/forms/survey-form.vue"),
+    },
+    {
+      path: "/form-for-editing-items",
+      name: "form-for-editing-items",
+      component: () => import("../components/forms/form-for-editing-items.vue"),
+    },
+    {
       path: "/form-with-img",
       name: "form-with-img",
       component: () =>
