@@ -39,8 +39,8 @@
                             </svg></a>
                         <span class="font-semibold text-gray-900">Shop</span>
                     </li>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-400" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" stroke-width="2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-400" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
                     </svg>
                     <li class="flex items-center space-x-3 text-left sm:space-x-4">
@@ -59,8 +59,8 @@
                 " href="#">2</a>
                         <span class="font-semibold text-gray-900">Shipping</span>
                     </li>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-400" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" stroke-width="2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-400" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
                     </svg>
                     <li class="flex items-center space-x-3 text-left sm:space-x-4">
@@ -351,7 +351,8 @@
             font-medium
             text-white
           ">
-            Place Order
-        </button>
+                Place Order
+            </button>
+        </div>
     </div>
-</div></template>
+</template>
