@@ -1,9 +1,10 @@
 <template>
     <div class="py-6">
         <div class="flex max-w-md overflow-hidden bg-white rounded-lg shadow-lg">
-            <div class="w-1/3 bg-cover" style="
-            background-image: url('https://images.unsplash.com/photo-1494726161322-5360d4d0eeae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80');
-          "></div>
+            <div class="w-1/3 bg-cover"
+                style="
+            background-image: url('https://images.unsplash.com/photo-1494726161322-5360d4d0eeae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80');">
+            </div>
             <div class="w-2/3 p-4">
                 <h1 class="text-2xl font-bold text-gray-900">Backpack</h1>
                 <p class="mt-2 text-sm text-gray-600">

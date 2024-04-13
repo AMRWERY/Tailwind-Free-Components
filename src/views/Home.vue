@@ -392,6 +392,7 @@ const forms = ref([
   { title: 'login-form-six', route: '/login-form-six' },
   { title: 'login-form-three', route: '/login-form-three' },
   { title: 'LoginFormTwoWithImage', route: '/login-form-two-with-img' },
+  { title: 'forget-password-one', route: '/forget-password-one' },
 ])
 
 const userProfile = ref([

@@ -46,7 +46,8 @@
                         </div>
                     </div>
                     <div class="col-span-full">
-                        <label for="email" class="block text-sm font-medium leading-6 text-gray-900">E-mail address</label>
+                        <label for="email" class="block text-sm font-medium leading-6 text-gray-900">E-mail
+                            address</label>
                         <div class="mt-2">
                             <input type="email" name="email" id="email" autocomplete="email" class="
                     block
@@ -122,7 +123,8 @@
                     </div>
                     <div class="relative w-32 h-32 mx-auto -mt-16 overflow-hidden border-4 border-white rounded-full ">
                         <img class="object-cover object-center h-32"
-                            src="https://justfields.com/storage/projects/7M5rV059/profile.jpg" alt="Woman looking front" />
+                            src="https://justfields.com/storage/projects/7M5rV059/profile.jpg"
+                            alt="Profile" />
                     </div>
                     <div class="mt-2 text-center">
                         <h2 class="font-semibold">Sarah Smith</h2>

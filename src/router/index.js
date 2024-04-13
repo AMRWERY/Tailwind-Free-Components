@@ -394,6 +394,12 @@ const router = createRouter({
       component: () =>
         import("../components/forms/auth-form/login-form-two-with-img.vue"),
     },
+    {
+      path: "/forget-password-one",
+      name: "forget-password-one",
+      component: () =>
+        import("../components/forms/forget-password/forget-password-one.vue"),
+    },
 
     //user-profile
     {

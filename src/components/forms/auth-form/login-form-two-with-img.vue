@@ -15,7 +15,8 @@
                     <label for="email" class="sr-only">Email</label>
 
                     <div class="relative">
-                        <input type="email" class="w-full p-4 text-sm border-gray-200 rounded-lg shadow-sm  pe-12" placeholder="Enter email" />
+                        <input type="email" class="w-full p-4 text-sm border-gray-200 rounded-lg shadow-sm pe-12"
+                            placeholder="Enter email" />
 
                         <span class="absolute inset-y-0 grid px-4 end-0 place-content-center">
                             <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-gray-400" fill="none"
@@ -31,7 +32,8 @@
                     <label for="password" class="sr-only">Password</label>
 
                     <div class="relative">
-                        <input type="password" class="w-full p-4 text-sm border-gray-200 rounded-lg shadow-sm  pe-12" placeholder="Enter password" />
+                        <input type="password" class="w-full p-4 text-sm border-gray-200 rounded-lg shadow-sm pe-12"
+                            placeholder="Enter password" />
 
                         <span class="absolute inset-y-0 grid px-4 end-0 place-content-center">
                             <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-gray-400" fill="none"
@@ -51,7 +53,8 @@
                         <a class="underline" href="">Sign up</a>
                     </p>
 
-                    <button type="submit" class="inline-block px-5 py-3 text-sm font-medium text-white bg-blue-500 rounded-lg ">
+                    <button type="submit"
+                        class="inline-block px-5 py-3 text-sm font-medium text-white bg-blue-500 rounded-lg ">
                         Sign in
                     </button>
                 </div>
