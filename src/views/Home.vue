@@ -441,7 +441,7 @@ const layouts = ref([
 ])
 
 const carousels = ref([
-  { title: 'carousel', route: '/carousel' },
+  { title: 'carousel-four', route: '/carousel-four' },
   { title: 'carousel-one', route: '/carousel-one' },
   { title: 'carousel-two', route: '/carousel-two' },
   { title: 'carousel-three', route: '/carousel-three' },

@@ -607,9 +607,9 @@ const router = createRouter({
 
     //carousel
     {
-      path: "/carousel",
-      name: "carousel",
-      component: () => import("../components/carousels/carousel.vue"),
+      path: "/carousel-four",
+      name: "carousel-four",
+      component: () => import("../components/carousels/carousel-four.vue"),
     },
     {
       path: "/carousel-one",
