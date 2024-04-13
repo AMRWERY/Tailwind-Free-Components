@@ -389,6 +389,7 @@ const forms = ref([
   { title: 'checkout-form-one', route: '/checkout-form-one' },
   { title: 'checkout-form-two', route: '/checkout-form-two' },
   { title: 'book-appointment-form', route: '/book-appointment-form' },
+  { title: 'reservation-form', route: '/reservation-form' },
   { title: 'form-with-img', route: '/form-with-img' },
   { title: 'form-with-img-three', route: '/form-with-img-three' },
   { title: 'login-form-five', route: '/login-form-five' },

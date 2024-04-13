@@ -367,6 +367,11 @@ const router = createRouter({
       component: () => import("../components/forms/book-appointment-form.vue"),
     },
     {
+      path: "/reservation-form",
+      name: "reservation-form",
+      component: () => import("../components/forms/reservation-form.vue"),
+    },
+    {
       path: "/form-for-editing-items",
       name: "form-for-editing-items",
       component: () => import("../components/forms/form-for-editing-items.vue"),
