@@ -420,6 +420,7 @@ const layouts = ref([
   { title: 'FooterThree', route: '/footer-three' },
   { title: 'FooterFive', route: '/footer-five' },
   { title: 'FooterTwo', route: '/footer-two' },
+  { title: 'sidebar', route: '/sidebar' },
   { title: 'FooterFour', route: '/footer-four' },
   { title: 'SidebarTwo', route: '/sidebar-two' },
   { title: 'SidebarFive', route: '/sidebar-five' },

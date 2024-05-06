@@ -11,7 +11,8 @@
         font-[sans-serif]
       ">
         <div class="relative">
-            <a href="javascript:void(0)"><img src="https://readymadeui.com/readymadeui.svg" alt="logo" class="w-[160px]" />
+            <a href="javascript:void(0)"><img src="https://readymadeui.com/readymadeui.svg" alt="logo"
+                    class="w-[160px]" />
             </a>
             <div class="
             absolute
@@ -34,7 +35,7 @@
                 </svg>
             </div>
         </div>
-        <div class="overflow-auto py-6 h-full">
+        <div class="h-full py-6 overflow-auto">
             <ul class="space-y-2">
                 <li>
                     <a href="javascript:void(0)" class="
@@ -241,4 +242,3 @@
         </div>
     </nav>
 </template>
-  

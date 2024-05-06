@@ -1,33 +1,36 @@
 <template>
-    <section class="text-gray-600 body-font relative">
+    <section class="relative text-gray-600 body-font">
         <div class="absolute inset-0 bg-gray-300">
-            <iframe width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="map" scrolling="no"
+            <iframe width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="map"
+                scrolling="no"
                 src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=%C4%B0zmir+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
                 style="filter: grayscale(1) contrast(1.2) opacity(0.4);"></iframe>
         </div>
-        <div class="container px-5 py-24 mx-auto flex">
+        <div class="container flex px-5 py-24 mx-auto">
             <div
-                class="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
-                <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">Feedback</h2>
-                <p class="leading-relaxed mb-5 text-gray-600">Post-ironic portland shabby chic echo park, banjo fashion axe
+                class="relative z-10 flex flex-col w-full p-8 mt-10 bg-white rounded-lg shadow-md lg:w-1/3 md:w-1/2 md:ml-auto md:mt-0">
+                <h2 class="mb-1 text-lg font-medium text-gray-900 title-font">Feedback</h2>
+                <p class="mb-5 leading-relaxed text-gray-600">Post-ironic portland shabby chic echo park, banjo fashion
+                    axe
                 </p>
                 <div class="relative mb-4">
-                    <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+                    <label for="email" class="text-sm leading-7 text-gray-600">Email</label>
                     <input type="email" id="email" name="email"
-                        class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                        class="w-full px-3 py-1 text-base leading-8 text-gray-700 transition-colors duration-200 ease-in-out bg-white border border-gray-300 rounded outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200">
                 </div>
                 <div class="relative mb-4">
-                    <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+                    <label for="message" class="text-sm leading-7 text-gray-600">Message</label>
                     <textarea id="message" name="message"
-                        class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                        class="w-full h-32 px-3 py-1 text-base leading-6 text-gray-700 transition-colors duration-200 ease-in-out bg-white border border-gray-300 rounded outline-none resize-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200"></textarea>
                 </div>
                 <button
-                    class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
-                <p class="text-xs text-gray-500 mt-3">Chicharrones blog helvetica normcore iceland tousled brook viral
+                    class="px-6 py-2 text-lg text-white bg-indigo-500 border-0 rounded focus:outline-none hover:bg-indigo-600">Button</button>
+                <p class="mt-3 text-xs text-gray-500">Chicharrones blog helvetica normcore iceland tousled brook viral
                     artisan.</p>
             </div>
-    </div>
-</section></template>
+        </div>
+    </section>
+</template>
 
 <script setup>
 

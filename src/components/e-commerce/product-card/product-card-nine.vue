@@ -43,4 +43,4 @@
                 Add to cart</a>
         </div>
     </div>
-</template>  
+</template>

@@ -517,6 +517,11 @@ const router = createRouter({
       component: () => import("../components/layouts/FooterTwo.vue"),
     },
     {
+      path: "/sidebar",
+      name: "sidebar",
+      component: () => import("../components/layouts/sidebar.vue"),
+    },
+    {
       path: "/footer-four",
       name: "FooterFour",
       component: () => import("../components/layouts/FooterFour.vue"),

@@ -123,8 +123,7 @@
                     </div>
                     <div class="relative w-32 h-32 mx-auto -mt-16 overflow-hidden border-4 border-white rounded-full ">
                         <img class="object-cover object-center h-32"
-                            src="https://justfields.com/storage/projects/7M5rV059/profile.jpg"
-                            alt="Profile" />
+                            src="https://justfields.com/storage/projects/7M5rV059/profile.jpg" alt="Profile" />
                     </div>
                     <div class="mt-2 text-center">
                         <h2 class="font-semibold">Sarah Smith</h2>
