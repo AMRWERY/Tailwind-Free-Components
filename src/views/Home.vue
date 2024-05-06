@@ -421,6 +421,7 @@ const layouts = ref([
   { title: 'FooterFive', route: '/footer-five' },
   { title: 'FooterTwo', route: '/footer-two' },
   { title: 'sidebar', route: '/sidebar' },
+  { title: 'sidebar-two', route: '/sidebar-II' },
   { title: 'FooterFour', route: '/footer-four' },
   { title: 'SidebarTwo', route: '/sidebar-two' },
   { title: 'SidebarFive', route: '/sidebar-five' },

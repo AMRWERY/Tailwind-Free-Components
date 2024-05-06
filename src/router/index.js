@@ -522,6 +522,11 @@ const router = createRouter({
       component: () => import("../components/layouts/sidebar.vue"),
     },
     {
+      path: "/sidebar-II",
+      name: "sidebar-two",
+      component: () => import("../components/layouts/sidebar-two.vue"),
+    },
+    {
       path: "/footer-four",
       name: "FooterFour",
       component: () => import("../components/layouts/FooterFour.vue"),
