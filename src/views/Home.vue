@@ -450,6 +450,7 @@ const carousels = ref([
 ])
 
 const others = ref([
+  { title: 'landing-page', route: '/landing-page' },
   { title: 'BestSelling', route: '/best-selling' },
   { title: 'statistics', route: '/statistics' },
   { title: 'LatestNewsUpdate', route: '/latest-news-update' },

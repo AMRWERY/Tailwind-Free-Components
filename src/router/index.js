@@ -641,6 +641,11 @@ const router = createRouter({
 
     //other
     {
+      path: "/landing-page",
+      name: "landing-page",
+      component: () => import("../components/landing-page.vue"),
+    },
+    {
       path: "/best-selling",
       name: "BestSelling",
       component: () => import("../components/BestSelling.vue"),
