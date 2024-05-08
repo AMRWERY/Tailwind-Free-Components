@@ -86,6 +86,12 @@ const router = createRouter({
         import("../components/e-commerce/checkout/checkout-two.vue"),
     },
     {
+      path: "/checkout-three",
+      name: "checkout-three",
+      component: () =>
+        import("../components/e-commerce/checkout/checkout-three.vue"),
+    },
+    {
       path: "/product-card-eight",
       name: "product-card-eight",
       component: () =>

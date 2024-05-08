@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
+    <div class="max-w-full py-6 mx-auto sm:px-6 lg:px-8">
       <router-view v-slot="{ Component, route }">
         <transition name="slide-fade">
           <div :key="route.path">

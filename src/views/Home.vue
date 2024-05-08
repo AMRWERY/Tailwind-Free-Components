@@ -333,6 +333,7 @@ const commerce = ref([
   { title: 'cart-one', route: '/cart-one' },
   { title: 'checkout-one', route: '/checkout-one' },
   { title: 'checkout-two', route: '/checkout-two' },
+  { title: 'checkout-three', route: '/checkout-three' },
   { title: 'product-card-eight', route: '/product-card-eight' },
   { title: 'product-card-five', route: '/product-card-five' },
   { title: 'product-card-four', route: '/product-card-four' },
