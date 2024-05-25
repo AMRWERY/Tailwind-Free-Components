@@ -268,6 +268,31 @@ const router = createRouter({
       name: "error-404-two",
       component: () => import("../components/error-404/error-404-two.vue"),
     },
+    {
+      path: "/error-404-eight",
+      name: "error-404-eight",
+      component: () => import("../components/error-404/error-404-eight.vue"),
+    },
+    {
+      path: "/error-404-nine",
+      name: "error-404-nine",
+      component: () => import("../components/error-404/error-404-nine.vue"),
+    },
+    {
+      path: "/error-404-ten",
+      name: "error-404-ten",
+      component: () => import("../components/error-404/error-404-ten.vue"),
+    },
+    {
+      path: "/error-404-eleven",
+      name: "error-404-eleven",
+      component: () => import("../components/error-404/error-404-eleven.vue"),
+    },
+    {
+      path: "/error-404-twelve",
+      name: "error-404-twelve",
+      component: () => import("../components/error-404/error-404-twelve.vue"),
+    },
 
     //hero-section
     {

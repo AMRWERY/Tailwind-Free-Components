@@ -364,6 +364,11 @@ const error = ref([
   { title: 'error-404-six', route: '/error-404-six' },
   { title: 'error-404-three', route: '/error-404-three' },
   { title: 'error-404-two', route: '/error-404-two' },
+  { title: 'error-404-eight', route: '/error-404-eight' },
+  { title: 'error-404-nine', route: '/error-404-nine' },
+  { title: 'error-404-ten', route: '/error-404-ten' },
+  { title: 'error-404-eleven', route: '/error-404-eleven' },
+  { title: 'error-404-twelve', route: '/error-404-twelve' },
 ])
 
 const hero = ref([
