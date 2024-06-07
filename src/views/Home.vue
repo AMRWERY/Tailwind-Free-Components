@@ -287,6 +287,20 @@
           </router-link>
         </div>
       </div>
+      
+      <!-- Buttons Components -->
+      <span class="text-3xl font-semibold text-blue-600 underline">Buttons Components</span>
+      <div class="grid grid-cols-1 mt-6 mb-16 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+        <div class="relative group transit" v-for="component in buttons" :key="component">
+          <router-link :to="component.route">
+            <div class="w-full h-20 overflow-hidden bg-gray-200 rounded-md group-hover:opacity-75">
+              <div class="flex items-center justify-center h-full">
+                <p class="text-2xl font-semibold truncate">{{ component.title }}</p>
+              </div>
+            </div>
+          </router-link>
+        </div>
+      </div>
 
     </div>
   </div>
@@ -467,6 +481,7 @@ const others = ref([
   { title: 'TeamCards', route: '/team-cards' },
   { title: 'BreadcrumbsOne', route: '/breadcrumbs-one' },
   { title: 'Dashboard', route: '/dashboard' },
+  { title: 'daily-growth-chart', route: '/daily-growth-chart' },
 ])
 
 const rating = ref([
@@ -549,5 +564,16 @@ const contact = ref([
   { title: 'contact-three', route: '/contact-three' },
   { title: 'contact-four', route: '/contact-four' },
   { title: 'contact-five', route: '/contact-five' },
+])
+
+const buttons = ref([
+  { title: 'store-buttons-one', route: '/store-buttons-one' },
+  { title: 'store-buttons-two', route: '/store-buttons-two' },
+  { title: 'gradient-button', route: '/store-buttons-three' },
+  { title: 'gradient-button', route: '/gradient-button' },
+  { title: 'social-buttons', route: '/social-buttons' },
+  { title: 'sign-in-with-buttons', route: '/sign-in-with-buttons' },
+  { title: 'buttons-with-icon', route: '/buttons-with-icon' },
+  { title: 'fancy-leaf-like-button', route: '/fancy-leaf-like-button' },
 ])
 </script>
