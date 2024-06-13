@@ -588,6 +588,16 @@ const router = createRouter({
       component: () => import("../components/layouts/SidebarThree.vue"),
     },
     {
+      path: "/sidebar-three",
+      name: "SidebarThree",
+      component: () => import("../components/layouts/SidebarThree.vue"),
+    },
+    {
+      path: "/sidebar-six",
+      name: "sidebar-six",
+      component: () => import("../components/layouts/sidebar-six.vue"),
+    },
+    {
       path: "/navbar-one",
       name: "NavbarOne",
       component: () => import("../components/layouts/NavbarOne.vue"),

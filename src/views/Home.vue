@@ -448,6 +448,7 @@ const layouts = ref([
   { title: 'SidebarFour', route: '/sidebar-four' },
   { title: 'SidebarOne', route: '/sidebar-one' },
   { title: 'SidebarThree', route: '/sidebar-three' },
+  { title: 'sidebar-six', route: '/sidebar-six' },
   { title: 'NavbarOne', route: '/navbar-one' },
   { title: 'NavbarTwo', route: '/navbar-two' },
   { title: 'NavbarThree', route: '/navbar-three' },
@@ -569,7 +570,7 @@ const contact = ref([
 const buttons = ref([
   { title: 'store-buttons-one', route: '/store-buttons-one' },
   { title: 'store-buttons-two', route: '/store-buttons-two' },
-  { title: 'gradient-button', route: '/store-buttons-three' },
+  { title: 'store-buttons-three', route: '/store-buttons-three' },
   { title: 'gradient-button', route: '/gradient-button' },
   { title: 'social-buttons', route: '/social-buttons' },
   { title: 'sign-in-with-buttons', route: '/sign-in-with-buttons' },

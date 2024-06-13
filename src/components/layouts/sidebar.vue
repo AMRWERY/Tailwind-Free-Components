@@ -35,11 +35,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- Content Body -->
-                <div class="flex-1 p-4 overflow-auto">
-                    <h1 class="text-2xl font-semibold">Welcome to our website</h1>
-                    <p>... Content goes here ...</p>
-                </div>
+                
             </div>
         </div>
     </div>

@@ -1,10 +1,10 @@
 <template>
     <!-- component -->
     <nav class="relative flex items-center justify-between px-4 py-4 bg-white">
-      <nuxt-link class="flex items-center text-lg font-bold leading-none" to="#">
+      <router-link class="flex items-center text-lg font-bold leading-none" to="#">
         <img src="https://justfields.com/storage/projects/7M5rV059/home-logo.jpg" class="mr-1">
         <p class="text-blue-600">Uni<span class="text-orange-600">Dorm</span></p>
-      </nuxt-link>
+      </router-link>
       <div class="lg:hidden">
         <button class="flex items-center p-3 text-blue-600 navbar-burger">
           <svg class="block w-4 h-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -16,7 +16,7 @@
       <ul
         class="absolute hidden transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 lg:flex lg:mx-auto lg:items-center lg:w-auto lg:space-x-6">
         <li>
-          <nuxt-link class="text-sm text-gray-400 hover:text-gray-500" to="#">Home</nuxt-link>
+          <router-link class="text-sm text-gray-400 hover:text-gray-500" to="#">Home</router-link>
         </li>
         <li class="text-gray-300">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill"
@@ -26,7 +26,7 @@
           </svg>
         </li>
         <li>
-          <nuxt-link class="text-sm font-bold text-blue-600" to="#">Properties</nuxt-link>
+          <router-link class="text-sm font-bold text-blue-600" to="#">Properties</router-link>
         </li>
         <li class="text-gray-300">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill"
@@ -36,7 +36,7 @@
           </svg>
         </li>
         <li>
-          <nuxt-link class="text-sm text-gray-400 hover:text-gray-500" to="#">Blog</nuxt-link>
+          <router-link class="text-sm text-gray-400 hover:text-gray-500" to="#">Blog</router-link>
         </li>
         <li class="text-gray-300">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill"
@@ -46,7 +46,7 @@
           </svg>
         </li>
         <li>
-          <nuxt-link class="text-sm text-gray-400 hover:text-gray-500" href="#">Contact</nuxt-link>
+          <router-link class="text-sm text-gray-400 hover:text-gray-500" href="#">Contact</router-link>
         </li>
       </ul>
       <a class="hidden px-6 py-2 text-sm font-bold text-gray-900 transition duration-200 lg:inline-block lg:ml-auto lg:mr-3 bg-gray-50 hover:bg-gray-100 rounded-xl"
@@ -76,35 +76,35 @@
         <div>
           <ul>
             <li class="mb-1">
-              <nuxt-link
+              <router-link
                 class="block p-4 text-sm font-semibold text-gray-400 rounded hover:bg-blue-50 hover:text-blue-600"
-                to="#">Home</nuxt-link>
+                to="#">Home</router-link>
             </li>
             <li class="mb-1">
-              <nuxt-link
+              <router-link
                 class="block p-4 text-sm font-semibold text-gray-400 rounded hover:bg-blue-50 hover:text-blue-600"
-                to="#">Properties</nuxt-link>
+                to="#">Properties</router-link>
             </li>
             <li class="mb-1">
-              <nuxt-link
+              <router-link
                 class="block p-4 text-sm font-semibold text-gray-400 rounded hover:bg-blue-50 hover:text-blue-600"
-                to="#">Blog</nuxt-link>
+                to="#">Blog</router-link>
             </li>
             <li class="mb-1">
-              <nuxt-link
+              <router-link
                 class="block p-4 text-sm font-semibold text-gray-400 rounded hover:bg-blue-50 hover:text-blue-600"
-                to="#">Contact</nuxt-link>
+                to="#">Contact</router-link>
             </li>
           </ul>
         </div>
         <div class="mt-auto">
           <div class="pt-6">
-            <nuxt-link
+            <router-link
               class="block px-4 py-3 mb-3 text-xs font-semibold leading-none leading-loose text-center bg-gray-50 hover:bg-gray-100 rounded-xl"
-              to="#">Sign in</nuxt-link>
-            <nuxt-link
+              to="#">Sign in</router-link>
+            <router-link
               class="block px-4 py-3 mb-2 text-xs font-semibold leading-loose text-center text-white bg-blue-600 hover:bg-blue-700 rounded-xl"
-              to="#">Sign Up</nuxt-link>
+              to="#">Sign Up</router-link>
           </div>
           <p class="my-4 text-xs text-center text-gray-400">
             <span>Copyright © 2021</span>
