@@ -741,6 +741,11 @@ const router = createRouter({
       name: "daily-growth-chart",
       component: () => import("../components/daily-growth-chart.vue"),
     },
+    {
+      path: "/range-slider",
+      name: "range-slider",
+      component: () => import("../components/range-slider.vue"),
+    },
 
     //rating
     {

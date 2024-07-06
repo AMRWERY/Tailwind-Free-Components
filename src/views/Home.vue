@@ -483,6 +483,7 @@ const others = ref([
   { title: 'BreadcrumbsOne', route: '/breadcrumbs-one' },
   { title: 'Dashboard', route: '/dashboard' },
   { title: 'daily-growth-chart', route: '/daily-growth-chart' },
+  { title: 'range-slider', route: '/range-slider' },
 ])
 
 const rating = ref([
