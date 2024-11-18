@@ -340,6 +340,7 @@ const alerts = ref([
 ])
 
 const commerce = ref([
+  { title: 'cart-six', route: '/cart-six' },
   { title: 'cart-five', route: '/cart-five' },
   { title: 'cart-four', route: '/cart-four' },
   { title: 'cart-three', route: '/cart-three' },

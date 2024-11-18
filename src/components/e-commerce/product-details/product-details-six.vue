@@ -7,7 +7,8 @@
                         <div class="relative mb-6 lg:mb-10">
                             <a class="absolute left-0 transform lg:ml-2 top-1/2 translate-1/2" href="#">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="w-5 h-5 text-blue-500  bi bi-chevron-left dark:text-blue-200" viewBox="0 0 16 16">
+                                    class="w-5 h-5 text-blue-500 bi bi-chevron-left dark:text-blue-200"
+                                    viewBox="0 0 16 16">
                                     <path fill-rule="evenodd"
                                         d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z">
                                     </path>
@@ -17,7 +18,8 @@
                                 alt="" />
                             <a class="absolute right-0 transform lg:mr-2 top-1/2 translate-1/2" href="#">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="w-5 h-5 text-blue-500  bi bi-chevron-right dark:text-blue-200" viewBox="0 0 16 16">
+                                    class="w-5 h-5 text-blue-500 bi bi-chevron-right dark:text-blue-200"
+                                    viewBox="0 0 16 16">
                                     <path fill-rule="evenodd"
                                         d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
                                     </path>
@@ -50,18 +52,19 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="px-6 pb-6 mt-6 border-t border-gray-300  dark:border-gray-400">
+                        <div class="px-6 pb-6 mt-6 border-t border-gray-300 dark:border-gray-400">
                             <div class="flex items-center justify-center mt-6">
                                 <span class="mr-3">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="w-5 h-5 text-blue-700  dark:text-gray-400 bi bi-chat-left-dots-fill" viewBox="0 0 16 16">
+                                        class="w-5 h-5 text-blue-700 dark:text-gray-400 bi bi-chat-left-dots-fill"
+                                        viewBox="0 0 16 16">
                                         <path
                                             d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793V2zm5 4a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z">
                                         </path>
                                     </svg>
                                 </span>
                                 <div>
-                                    <h2 class="text-sm font-bold text-gray-700  lg:text-lg dark:text-gray-400">
+                                    <h2 class="text-sm font-bold text-gray-700 lg:text-lg dark:text-gray-400">
                                         Have question about buying an Oneplus
                                     </h2>
                                     <a class="text-xs text-blue-400 lg:text-sm dark:text-blue-200" href="#">
@@ -76,7 +79,8 @@
                     <div class="lg:pl-20">
                         <div class="mb-6">
                             <span class="text-red-500 dark:text-red-200">New</span>
-                            <h2 class="max-w-xl mt-2 mb-4 text-5xl font-bold  md:text-6xl font-heading dark:text-gray-300">
+                            <h2
+                                class="max-w-xl mt-2 mb-4 text-5xl font-bold md:text-6xl font-heading dark:text-gray-300">
                                 Buy One Plus 8 Pro
                             </h2>
                             <p class="max-w-md mb-4 text-gray-500 dark:text-gray-400">
@@ -89,52 +93,60 @@
                             <p class="mb-4 text-lg font-semibold dark:text-gray-400">
                                 Choose your finish
                             </p>
-                            <div class="grid grid-cols-2 gap-4 pb-4 border-b-2 border-gray-300  lg:grid-cols-3 dark:border-gray-600">
+                            <div
+                                class="grid grid-cols-2 gap-4 pb-4 border-b-2 border-gray-300 lg:grid-cols-3 dark:border-gray-600">
                                 <div>
-                                    <button class="flex items-center justify-center w-full h-full py-4 border-2 border-gray-300  dark:hover:border-blue-400 dark:border-gray-500 hover:border-blue-400">
+                                    <button
+                                        class="flex items-center justify-center w-full h-full py-4 border-2 border-gray-300 dark:hover:border-blue-400 dark:border-gray-500 hover:border-blue-400">
                                         <div>
                                             <div class="w-8 h-8 mx-auto mb-2 rounded-full bg-emerald-400"></div>
-                                            <p class="text-xs text-center text-gray-700  dark:text-gray-400">
+                                            <p class="text-xs text-center text-gray-700 dark:text-gray-400">
                                                 Pearl Green
                                             </p>
                                         </div>
                                     </button>
                                 </div>
                                 <div>
-                                    <button class="flex items-center justify-center w-full h-full py-4 border-2 border-gray-300  dark:hover:border-blue-400 dark:border-gray-500 hover:border-blue-400">
+                                    <button
+                                        class="flex items-center justify-center w-full h-full py-4 border-2 border-gray-300 dark:hover:border-blue-400 dark:border-gray-500 hover:border-blue-400">
                                         <div>
-                                            <div class="w-8 h-8 mx-auto mb-2 bg-gray-700 rounded-full  dark:bg-gray-600"></div>
-                                            <p class="text-xs text-center text-gray-700  dark:text-gray-400">
+                                            <div
+                                                class="w-8 h-8 mx-auto mb-2 bg-gray-700 rounded-full dark:bg-gray-600">
+                                            </div>
+                                            <p class="text-xs text-center text-gray-700 dark:text-gray-400">
                                                 Mattee Black
                                             </p>
                                         </div>
                                     </button>
                                 </div>
                                 <div>
-                                    <button class="flex items-center justify-center w-full h-full py-4 border-2 border-gray-300  dark:hover:border-blue-400 dark:border-gray-500 hover:border-blue-400">
+                                    <button
+                                        class="flex items-center justify-center w-full h-full py-4 border-2 border-gray-300 dark:hover:border-blue-400 dark:border-gray-500 hover:border-blue-400">
                                         <div>
                                             <div class="w-8 h-8 mx-auto mb-2 bg-red-500 rounded-full"></div>
-                                            <p class="text-xs text-center text-gray-700  dark:text-gray-400">
+                                            <p class="text-xs text-center text-gray-700 dark:text-gray-400">
                                                 Red
                                             </p>
                                         </div>
                                     </button>
                                 </div>
                                 <div>
-                                    <button class="flex items-center justify-center w-full h-full py-4 border-2 border-gray-300  dark:hover:border-blue-400 dark:border-gray-500 hover:border-blue-400">
+                                    <button
+                                        class="flex items-center justify-center w-full h-full py-4 border-2 border-gray-300 dark:hover:border-blue-400 dark:border-gray-500 hover:border-blue-400">
                                         <div>
                                             <div class="w-8 h-8 mx-auto mb-2 rounded-full bg-stone-200"></div>
-                                            <p class="text-xs text-center text-gray-700  dark:text-gray-400">
+                                            <p class="text-xs text-center text-gray-700 dark:text-gray-400">
                                                 Silver
                                             </p>
                                         </div>
                                     </button>
                                 </div>
                                 <div>
-                                    <button class="flex items-center justify-center w-full h-full py-4 border-2 border-gray-300  dark:hover:border-blue-400 dark:border-gray-500 hover:border-blue-400">
+                                    <button
+                                        class="flex items-center justify-center w-full h-full py-4 border-2 border-gray-300 dark:hover:border-blue-400 dark:border-gray-500 hover:border-blue-400">
                                         <div>
                                             <div class="w-8 h-8 mx-auto mb-2 bg-blue-200 rounded-full"></div>
-                                            <p class="text-xs text-center text-gray-700  dark:text-gray-400">
+                                            <p class="text-xs text-center text-gray-700 dark:text-gray-400">
                                                 Sierra Blue
                                             </p>
                                         </div>
@@ -148,50 +160,59 @@
                             </p>
                             <a href="#" class="text-blue-500 hover:underline dark:text-gray-400">
                                 How much capacity is right for you?</a>
-                            <div class="grid grid-cols-2 gap-4 pb-4 mt-2 mb-4 border-b-2 border-gray-300  lg:grid-cols-3 dark:border-gray-600">
+                            <div
+                                class="grid grid-cols-2 gap-4 pb-4 mt-2 mb-4 border-b-2 border-gray-300 lg:grid-cols-3 dark:border-gray-600">
                                 <div>
-                                    <button class="flex items-center justify-center w-full h-full py-4 border-2 border-gray-300  dark:hover:border-blue-400 dark:border-gray-600 hover:border-blue-400">
+                                    <button
+                                        class="flex items-center justify-center w-full h-full py-4 border-2 border-gray-300 dark:hover:border-blue-400 dark:border-gray-600 hover:border-blue-400">
                                         <div>
                                             <div class="mb-2 font-semibold dark:text-gray-400">
                                                 128 <span class="text-xs">GB</span>
                                             </div>
-                                            <p class="px-2 text-xs font-medium text-center text-gray-700  dark:text-gray-400">
+                                            <p
+                                                class="px-2 text-xs font-medium text-center text-gray-700 dark:text-gray-400">
                                                 From $99 0r $41.62/mo. for 24 mo.
                                             </p>
                                         </div>
                                     </button>
                                 </div>
                                 <div>
-                                    <button class="flex items-center justify-center w-full h-full py-4 border-2 border-gray-300  dark:hover:border-blue-400 dark:border-gray-600 hover:border-blue-400">
+                                    <button
+                                        class="flex items-center justify-center w-full h-full py-4 border-2 border-gray-300 dark:hover:border-blue-400 dark:border-gray-600 hover:border-blue-400">
                                         <div>
                                             <div class="mb-2 font-semibold dark:text-gray-400">
                                                 256 <span class="text-xs">GB</span>
                                             </div>
-                                            <p class="px-2 text-xs font-medium text-center text-gray-700  dark:text-gray-400">
+                                            <p
+                                                class="px-2 text-xs font-medium text-center text-gray-700 dark:text-gray-400">
                                                 From $99 0r $41.62/mo. for 24 mo.
                                             </p>
                                         </div>
                                     </button>
                                 </div>
                                 <div>
-                                    <button class="flex items-center justify-center w-full h-full py-4 border-2 border-gray-300  dark:hover:border-blue-400 dark:border-gray-600 hover:border-blue-400">
+                                    <button
+                                        class="flex items-center justify-center w-full h-full py-4 border-2 border-gray-300 dark:hover:border-blue-400 dark:border-gray-600 hover:border-blue-400">
                                         <div>
                                             <div class="mb-2 font-semibold dark:text-gray-400">
                                                 512 <span class="text-xs">GB</span>
                                             </div>
-                                            <p class="px-2 text-xs font-medium text-center text-gray-700  dark:text-gray-400">
+                                            <p
+                                                class="px-2 text-xs font-medium text-center text-gray-700 dark:text-gray-400">
                                                 From $99 0r $41.62/mo. for 24 mo.
                                             </p>
                                         </div>
                                     </button>
                                 </div>
                                 <div>
-                                    <button class="flex items-center justify-center w-full h-full py-4 border-2 border-gray-300  dark:hover:border-blue-400 dark:border-gray-600 hover:border-blue-400">
+                                    <button
+                                        class="flex items-center justify-center w-full h-full py-4 border-2 border-gray-300 dark:hover:border-blue-400 dark:border-gray-600 hover:border-blue-400">
                                         <div>
                                             <div class="mb-2 font-semibold dark:text-gray-400">
                                                 1 <span class="text-xs">GB</span>
                                             </div>
-                                            <p class="px-2 text-xs font-medium text-center text-gray-700  dark:text-gray-400">
+                                            <p
+                                                class="px-2 text-xs font-medium text-center text-gray-700 dark:text-gray-400">
                                                 From $99 0r $41.62/mo. for 24 mo.
                                             </p>
                                         </div>
@@ -203,20 +224,25 @@
                             <p class="mb-4 text-lg font-semibold dark:text-gray-400">
                                 Choose a payment option
                             </p>
-                            <div class="grid grid-cols-2 gap-4 pb-4 mt-2 mb-4 border-b-2 border-gray-300  lg:grid-cols-3 dark:border-gray-600">
+                            <div
+                                class="grid grid-cols-2 gap-4 pb-4 mt-2 mb-4 border-b-2 border-gray-300 lg:grid-cols-3 dark:border-gray-600">
                                 <div>
-                                    <button class="flex items-center justify-center w-full h-full px-2 py-6 border-2 border-gray-300  dark:hover:border-blue-400 dark:border-gray-600 hover:border-blue-400">
+                                    <button
+                                        class="flex items-center justify-center w-full h-full px-2 py-6 border-2 border-gray-300 dark:hover:border-blue-400 dark:border-gray-600 hover:border-blue-400">
                                         <div>
-                                            <p class="px-2 text-base font-semibold text-center text-gray-700  dark:text-gray-400">
+                                            <p
+                                                class="px-2 text-base font-semibold text-center text-gray-700 dark:text-gray-400">
                                                 Pay in full
                                             </p>
                                         </div>
                                     </button>
                                 </div>
                                 <div>
-                                    <button class="flex items-center justify-center w-full h-full px-2 py-6 border-2 border-gray-300  dark:hover:border-blue-400 dark:border-gray-600 hover:border-blue-400">
+                                    <button
+                                        class="flex items-center justify-center w-full h-full px-2 py-6 border-2 border-gray-300 dark:hover:border-blue-400 dark:border-gray-600 hover:border-blue-400">
                                         <div>
-                                            <p class="px-2 text-base font-semibold text-center text-gray-700  dark:text-gray-400">
+                                            <p
+                                                class="px-2 text-base font-semibold text-center text-gray-700 dark:text-gray-400">
                                                 Pay monthly
                                             </p>
                                         </div>
@@ -264,13 +290,14 @@
                             </div>
                         </div>
                         <div class="mt-6">
-                            <button class="w-full px-4 py-2 font-bold text-white bg-blue-400  lg:w-96 hover:bg-blue-500">
+                            <button
+                                class="w-full px-4 py-2 font-bold text-white bg-blue-400 lg:w-96 hover:bg-blue-500">
                                 Continue
                             </button>
                         </div>
                         <div class="flex items-center mt-6">
                             <div>
-                                <h2 class="mb-2 text-lg font-bold text-gray-700  dark:text-gray-400">
+                                <h2 class="mb-2 text-lg font-bold text-gray-700 dark:text-gray-400">
                                     Still deciding?
                                 </h2>
                                 <p class="mb-2 text-sm dark:text-gray-400">
@@ -279,7 +306,8 @@
                             </div>
                             <span class="ml-6">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="w-6 h-6 text-blue-500 cursor-pointer  hover:text-blue-600 dark:hover:text-blue-300 bi bi-bookmark dark:text-gray-400" viewBox="0 0 16 16">
+                                    class="w-6 h-6 text-blue-500 cursor-pointer hover:text-blue-600 dark:hover:text-blue-300 bi bi-bookmark dark:text-gray-400"
+                                    viewBox="0 0 16 16">
                                     <path
                                         d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z">
                                     </path>
