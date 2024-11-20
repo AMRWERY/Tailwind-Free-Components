@@ -1,5 +1,6 @@
 <template>
     <div>
+
         <head>
             <meta charset="UTF-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,7 +14,7 @@
         <body>
             <aside class="sidebar">
                 <div class="sidebar-header">
-                    <img src="images/logo.png" alt="logo" />
+                    <img src="https://justfields.com/storage/projects/7M5rV059/shield.jpg" />
                     <h2>CodingLab</h2>
                 </div>
                 <ul class="sidebar-links">
@@ -67,7 +68,7 @@
                 </ul>
                 <div class="user-account">
                     <div class="user-profile">
-                        <img src="images/profile-img.jpg" alt="Profile Image" />
+                        <img src="https://justfields.com/storage/projects/7M5rV059/shield.jpg" />
                         <div class="user-detail">
                             <h3>Eva Murphy</h3>
                             <span>Web Developer</span>
