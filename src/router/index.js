@@ -49,6 +49,36 @@ const router = createRouter({
 
     //e-commerce
     {
+      path: "/payment-form-one",
+      name: "payment-form-one",
+      component: () =>
+        import("../components/e-commerce/payment/payment-form-one.vue"),
+    },
+    {
+      path: "/payment-form-two",
+      name: "payment-form-two",
+      component: () =>
+        import("../components/e-commerce/payment/payment-form-two.vue"),
+    },
+    {
+      path: "/payment-form-three",
+      name: "payment-form-three",
+      component: () =>
+        import("../components/e-commerce/payment/payment-form-three.vue"),
+    },
+    {
+      path: "/payment-form-four",
+      name: "payment-form-four",
+      component: () =>
+        import("../components/e-commerce/payment/payment-form-four.vue"),
+    },
+    {
+      path: "/payment-form-five",
+      name: "payment-form-five",
+      component: () =>
+        import("../components/e-commerce/payment/payment-form-five.vue"),
+    },
+    {
       path: "/cart-six",
       name: "cart-six",
       component: () => import("../components/e-commerce/cart/cart-six.vue"),
@@ -1031,44 +1061,37 @@ const router = createRouter({
     {
       path: "/store-buttons-one",
       name: "store-buttons-one",
-      component: () =>
-        import("../components/buttons/store-buttons-one.vue"),
+      component: () => import("../components/buttons/store-buttons-one.vue"),
     },
     {
       path: "/store-buttons-two",
       name: "store-buttons-two",
-      component: () =>
-        import("../components/buttons/store-buttons-two.vue"),
+      component: () => import("../components/buttons/store-buttons-two.vue"),
     },
     {
       path: "/store-buttons-three",
       name: "store-buttons-three",
-      component: () =>
-        import("../components/buttons/store-buttons-three.vue"),
+      component: () => import("../components/buttons/store-buttons-three.vue"),
     },
     {
       path: "/gradient-button",
       name: "gradient-button",
-      component: () =>
-        import("../components/buttons/gradient-button.vue"),
+      component: () => import("../components/buttons/gradient-button.vue"),
     },
     {
       path: "/social-buttons",
       name: "social-buttons",
-      component: () =>
-        import("../components/buttons/social-buttons.vue"),
+      component: () => import("../components/buttons/social-buttons.vue"),
     },
     {
       path: "/sign-in-with-buttons",
       name: "sign-in-with-buttons",
-      component: () =>
-        import("../components/buttons/sign-in-with-buttons.vue"),
+      component: () => import("../components/buttons/sign-in-with-buttons.vue"),
     },
     {
       path: "/buttons-with-icon",
       name: "buttons-with-icon",
-      component: () =>
-        import("../components/buttons/buttons-with-icon.vue"),
+      component: () => import("../components/buttons/buttons-with-icon.vue"),
     },
     {
       path: "/fancy-leaf-like-button",

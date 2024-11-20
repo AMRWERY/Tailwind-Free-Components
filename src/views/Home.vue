@@ -287,7 +287,7 @@
           </router-link>
         </div>
       </div>
-      
+
       <!-- Buttons Components -->
       <span class="text-3xl font-semibold text-blue-600 underline">Buttons Components</span>
       <div class="grid grid-cols-1 mt-6 mb-16 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
@@ -340,6 +340,11 @@ const alerts = ref([
 ])
 
 const commerce = ref([
+  { title: 'payment-form-one', route: '/payment-form-one' },
+  { title: 'payment-form-two', route: '/payment-form-two' },
+  { title: 'payment-form-three', route: '/payment-form-three' },
+  { title: 'payment-form-four', route: '/payment-form-four' },
+  { title: 'payment-form-five', route: '/payment-form-five' },
   { title: 'cart-six', route: '/cart-six' },
   { title: 'cart-five', route: '/cart-five' },
   { title: 'cart-four', route: '/cart-four' },
