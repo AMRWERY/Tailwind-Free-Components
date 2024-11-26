@@ -1,25 +1,7 @@
 <template>
-  <div class="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
-    <img src="https://themehut.co/html/geair/assets/img/bg/destination_bg.jpg" class="
-          absolute
-          inset-0
-          -z-10
-          h-full
-          w-full
-          object-cover object-right
-          md:object-center
-        " />
-    <div class="
-          hidden
-          sm:absolute
-          sm:-top-10
-          sm:right-1/2
-          sm:-z-10
-          sm:mr-10
-          sm:block
-          sm:transform-gpu
-          sm:blur-3xl
-        " aria-hidden="true">
+  <div class="relative py-24 overflow-hidden bg-gray-900 isolate sm:py-32">
+    <img src="https://themehut.co/html/geair/assets/img/bg/destination_bg.jpg" class="absolute inset-0 object-cover object-right w-full h-full  -z-10 md:object-center" />
+    <div class="hidden  sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
       <div class="
             aspect-[1097/845]
             w-[68.5625rem]
@@ -86,10 +68,10 @@
             );
           " />
     </div>
-    <div class="mx-auto max-w-7xl px-6 lg:px-8">
-      <div class="mx-auto max-w-2xl lg:mx-0">
-        <div class="bg-yellow-300 p-2 py-1 inline-block rounded-md">
-          <p class="text-md font-bold text-blue-600">Offer Deals</p>
+    <div class="px-6 mx-auto max-w-7xl lg:px-8">
+      <div class="max-w-2xl mx-auto lg:mx-0">
+        <div class="inline-block p-2 py-1 bg-yellow-300 rounded-md">
+          <p class="font-bold text-blue-600 text-md">Offer Deals</p>
         </div>
         <h2 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">
           Your Great Destination
@@ -100,14 +82,8 @@
           <span class="text-yellow-300">tripmainfo.com</span> account
         </p>
       </div>
-      <div class="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
-        <dl class="
-              mt-16
-              grid grid-cols-1
-              gap-8
-              sm:mt-20 sm:grid-cols-2
-              lg:grid-cols-4
-            ">
+      <div class="max-w-2xl mx-auto mt-10 lg:mx-0 lg:max-w-none">
+        <dl class="grid grid-cols-1 gap-8 mt-16  sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
           <div v-for="stat in stats" :key="stat.name" class="flex flex-col-reverse">
             <dt class="text-base leading-7 text-gray-300">{{ stat.name }}</dt>
             <dd class="text-2xl font-bold leading-9 tracking-tight text-white">
@@ -118,25 +94,14 @@
       </div>
       <p class="mt-6 text-lg leading-8 text-gray-300">
         Discover the latest offers & news and start planning
-        <button class="
-              bg-yellow-300
-              text-blue-600
-              rounded-2xl
-              p-2
-              py-1
-              transition
-              ease-in-out
-              delay-150
-              hover:-translate-y-1 hover:scale-110
-              duration-300
-            ">
+        <button class="p-2 py-1 text-blue-600 transition duration-300 ease-in-out delay-150 bg-yellow-300  rounded-2xl hover:-translate-y-1 hover:scale-110">
           Contact us
         </button>
       </p>
     </div>
   </div>
 </template>
-  
+
 <script setup>
 const stats = [
   { name: 'Happy Customers', value: '5830+' },

@@ -717,6 +717,11 @@ const router = createRouter({
 
     //other
     {
+      path: "/tabs",
+      name: "tabs",
+      component: () => import("../components/tabs.vue"),
+    },
+    {
       path: "/landing-page",
       name: "landing-page",
       component: () => import("../components/landing-page.vue"),

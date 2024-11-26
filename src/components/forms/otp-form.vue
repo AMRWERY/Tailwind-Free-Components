@@ -1,5 +1,4 @@
 <template>
-    <!-- component -->
     <div class="relative flex flex-col justify-center min-h-screen py-12 overflow-hidden bg-gray-50">
         <div class="relative w-full max-w-lg px-6 pt-10 mx-auto bg-white shadow-xl pb-9 rounded-2xl">
             <div class="flex flex-col w-full max-w-md mx-auto space-y-16">
