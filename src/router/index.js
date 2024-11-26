@@ -717,6 +717,11 @@ const router = createRouter({
 
     //other
     {
+      path: "/charts",
+      name: "charts",
+      component: () => import("../components/charts.vue"),
+    },
+    {
       path: "/tabs",
       name: "tabs",
       component: () => import("../components/tabs.vue"),

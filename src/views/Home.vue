@@ -477,6 +477,7 @@ const carousels = ref([
 ])
 
 const others = ref([
+  { title: 'charts', route: '/charts' },
   { title: 'tabs', route: '/tabs' },
   { title: 'landing-page', route: '/landing-page' },
   { title: 'BestSelling', route: '/best-selling' },
