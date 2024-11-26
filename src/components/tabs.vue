@@ -52,7 +52,6 @@ const activeTab = ref(1);
 </script>
 
 <style scoped>
-/* Animation Styles */
 .fade-enter-active,
 .fade-leave-active {
     transition: opacity 0.5s ease;
