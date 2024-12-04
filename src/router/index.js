@@ -791,6 +791,16 @@ const router = createRouter({
       name: "range-slider",
       component: () => import("../components/range-slider.vue"),
     },
+    {
+      path: "/skeleton-loader",
+      name: "skeleton-loader",
+      component: () => import("../components/skeleton-loader.vue"),
+    },
+    {
+      path: "/skeleton-loader-two",
+      name: "skeleton-loader-two",
+      component: () => import("../components/skeleton-loader-two.vue"),
+    },
 
     //rating
     {

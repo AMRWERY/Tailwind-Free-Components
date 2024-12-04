@@ -492,6 +492,8 @@ const others = ref([
   { title: 'Dashboard', route: '/dashboard' },
   { title: 'daily-growth-chart', route: '/daily-growth-chart' },
   { title: 'range-slider', route: '/range-slider' },
+  { title: 'skeleton-loader', route: '/skeleton-loader' },
+  { title: 'skeleton-loader-two', route: '/skeleton-loader-two' },
 ])
 
 const rating = ref([
