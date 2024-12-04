@@ -801,6 +801,11 @@ const router = createRouter({
       name: "skeleton-loader-two",
       component: () => import("../components/skeleton-loader-two.vue"),
     },
+    {
+      path: "/progress-bar",
+      name: "progress-bar",
+      component: () => import("../components/progress-bar.vue"),
+    },
 
     //rating
     {
