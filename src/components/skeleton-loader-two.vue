@@ -13,7 +13,7 @@
 </template>
 
 <script setup>
-// put it in app.vue component
+//import it in app.vue component
 
 // const isLoading = ref(true);
 

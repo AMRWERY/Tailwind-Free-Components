@@ -6,6 +6,8 @@
 </template>
 
 <script setup>
+//import it in app.vue component
+
 import { ref, onMounted, onUnmounted } from 'vue';
 import { useRouter } from 'vue-router'
 

@@ -806,6 +806,11 @@ const router = createRouter({
       name: "progress-bar",
       component: () => import("../components/progress-bar.vue"),
     },
+    {
+      path: "/scroll-to-top",
+      name: "scroll-to-top",
+      component: () => import("../components/scroll-to-top.vue"),
+    },
 
     //rating
     {
