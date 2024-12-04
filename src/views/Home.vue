@@ -488,7 +488,7 @@ const others = ref([
   { title: 'ReviewsComponent', route: '/reviews-component' },
   { title: 'PricingCard', route: '/pricing-card' },
   { title: 'TeamCards', route: '/team-cards' },
-  { title: 'BreadcrumbsOne', route: '/breadcrumbs-one' },
+  { title: 'breadcrumbs-one', route: '/breadcrumbs-one' },
   { title: 'Dashboard', route: '/dashboard' },
   { title: 'daily-growth-chart', route: '/daily-growth-chart' },
   { title: 'range-slider', route: '/range-slider' },

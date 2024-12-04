@@ -773,8 +773,8 @@ const router = createRouter({
     },
     {
       path: "/breadcrumbs-one",
-      name: "BreadcrumbsOne",
-      component: () => import("../components/BreadcrumbsOne.vue"),
+      name: "breadcrumbs-one",
+      component: () => import("../components/breadcrumbs-one.vue"),
     },
     {
       path: "/dashboard",
