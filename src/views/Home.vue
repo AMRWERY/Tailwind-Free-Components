@@ -467,6 +467,9 @@ const layouts = ref([
   { title: 'NavbarTen', route: '/navbar-ten' },
   { title: 'navbar-eleven', route: '/navbar-eleven' },
   { title: 'navbar-twelve', route: '/navbar-twelve' },
+  { title: 'navbar-thirteen', route: '/navbar-thirteen' },
+  { title: 'navbar-fourteen', route: '/navbar-fourteen' },
+  { title: 'navbar-fifteen', route: '/navbar-fifteen' },
 ])
 
 const carousels = ref([

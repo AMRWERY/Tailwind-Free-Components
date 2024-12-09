@@ -692,6 +692,21 @@ const router = createRouter({
       name: "navbar-twelve",
       component: () => import("../components/layouts/navbar-twelve.vue"),
     },
+    {
+      path: "/navbar-thirteen",
+      name: "navbar-thirteen",
+      component: () => import("../components/layouts/navbar-thirteen.vue"),
+    },
+    {
+      path: "/navbar-fourteen",
+      name: "navbar-fourteen",
+      component: () => import("../components/layouts/navbar-fourteen.vue"),
+    },
+    {
+      path: "/navbar-fifteen",
+      name: "navbar-fifteen",
+      component: () => import("../components/layouts/navbar-fifteen.vue"),
+    },
 
     //carousel
     {
