@@ -51,8 +51,7 @@ const router = createRouter({
     {
       path: "/order-summary",
       name: "order-summary",
-      component: () =>
-        import("../components/e-commerce/order-summary.vue"),
+      component: () => import("../components/e-commerce/order-summary.vue"),
     },
     {
       path: "/payment-form-one",
