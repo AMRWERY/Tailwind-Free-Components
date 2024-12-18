@@ -732,6 +732,11 @@ const router = createRouter({
 
     //other
     {
+      path: "/stepper",
+      name: "stepper",
+      component: () => import("../components/stepper.vue"),
+    },
+    {
       path: "/charts",
       name: "charts",
       component: () => import("../components/charts.vue"),
