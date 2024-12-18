@@ -340,6 +340,7 @@ const alerts = ref([
 ])
 
 const commerce = ref([
+  { title: 'order-summary', route: '/order-summary' },
   { title: 'payment-form-one', route: '/payment-form-one' },
   { title: 'payment-form-two', route: '/payment-form-two' },
   { title: 'payment-form-three', route: '/payment-form-three' },
