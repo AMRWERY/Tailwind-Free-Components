@@ -530,6 +530,7 @@ const spinner = ref([
 const tables = ref([
   { title: 'TableOne', route: '/table-one' },
   { title: 'TableTwo', route: '/table-two' },
+  { title: 'table-with-pagination', route: '/table-with-pagination' },
 ])
 
 const banners = ref([

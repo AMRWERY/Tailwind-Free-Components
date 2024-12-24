@@ -929,6 +929,11 @@ const router = createRouter({
       name: "TableTwo",
       component: () => import("../components/tables/TableTwo.vue"),
     },
+    {
+      path: "/table-with-pagination",
+      name: "table-with-pagination",
+      component: () => import("../components/tables/table-with-pagination.vue"),
+    },
 
     //banners
     {
