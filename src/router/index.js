@@ -383,6 +383,18 @@ const router = createRouter({
       component: () =>
         import("../components/hero-section/hero-section-eight.vue"),
     },
+    {
+      path: "/hero-section-nine",
+      name: "hero-section-nine",
+      component: () =>
+        import("../components/hero-section/hero-section-nine.vue"),
+    },
+    {
+      path: "/hero-section-ten",
+      name: "hero-section-ten",
+      component: () =>
+        import("../components/hero-section/hero-section-ten.vue"),
+    },
 
     //forms
     {
