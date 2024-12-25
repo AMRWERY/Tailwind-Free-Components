@@ -404,6 +404,7 @@ const hero = ref([
   { title: 'hero-section-eight', route: '/hero-section-eight' },
   { title: 'hero-section-nine', route: '/hero-section-nine' },
   { title: 'hero-section-ten', route: '/hero-section-ten' },
+  { title: 'hero-section-eleven', route: '/hero-section-eleven' },
 ])
 
 const forms = ref([
