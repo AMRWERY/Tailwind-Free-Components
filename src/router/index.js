@@ -336,6 +336,11 @@ const router = createRouter({
 
     //hero-section
     {
+      path: "/hero-video",
+      name: "hero-video",
+      component: () => import("../components/hero-section/hero-video.vue"),
+    },
+    {
       path: "/hero-section-five",
       name: "HeroSectionFive",
       component: () => import("../components/hero-section/HeroSectionFive.vue"),
