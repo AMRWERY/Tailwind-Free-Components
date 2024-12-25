@@ -401,6 +401,12 @@ const router = createRouter({
       component: () =>
         import("../components/hero-section/hero-section-eleven.vue"),
     },
+    {
+      path: "/hero-section-twelve",
+      name: "hero-section-twelve",
+      component: () =>
+        import("../components/hero-section/hero-section-twelve.vue"),
+    },
 
     //forms
     {
