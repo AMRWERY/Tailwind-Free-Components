@@ -186,6 +186,24 @@ const router = createRouter({
         import("../components/e-commerce/product-card/product-card-two.vue"),
     },
     {
+      path: "/product-card-ten",
+      name: "product-card-ten",
+      component: () =>
+        import("../components/e-commerce/product-card/product-card-ten.vue"),
+    },
+    {
+      path: "/product-card-eleven",
+      name: "product-card-eleven",
+      component: () =>
+        import("../components/e-commerce/product-card/product-card-eleven.vue"),
+    },
+    {
+      path: "/product-card-twelve",
+      name: "product-card-twelve",
+      component: () =>
+        import("../components/e-commerce/product-card/product-card-twelve.vue"),
+    },
+    {
       path: "/product-details-eight",
       name: "product-details-eight",
       component: () =>

@@ -1,10 +1,13 @@
 <template>
-    <div class="relative flex flex-col w-full max-w-xs m-10 overflow-hidden bg-white border border-gray-100 rounded-lg shadow-md ">
+    <div
+        class="relative flex flex-col w-full max-w-xs m-10 overflow-hidden bg-white border border-gray-100 rounded-lg shadow-md ">
         <a class="relative flex mx-3 mt-3 overflow-hidden h-60 rounded-xl" href="#">
             <img class="object-cover"
                 src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c25lYWtlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
                 alt="product image" />
-            <span class="absolute top-0 left-0 px-2 m-2 text-sm font-medium text-center text-white bg-black rounded-full ">39% OFF</span>
+            <span
+                class="absolute top-0 left-0 px-2 m-2 text-sm font-medium text-center text-white bg-black rounded-full ">39%
+                OFF</span>
         </a>
         <div class="px-5 pb-5 mt-4">
             <a href="#">
