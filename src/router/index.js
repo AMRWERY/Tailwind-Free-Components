@@ -192,6 +192,12 @@ const router = createRouter({
         import("../components/e-commerce/product-card/product-card-ten.vue"),
     },
     {
+      path: "/product-card-grid",
+      name: "product-card-grid",
+      component: () =>
+        import("../components/e-commerce/product-card/product-card-grid.vue"),
+    },
+    {
       path: "/product-card-eleven",
       name: "product-card-eleven",
       component: () =>

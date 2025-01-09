@@ -367,6 +367,7 @@ const commerce = ref([
   { title: 'product-card-ten', route: '/product-card-ten' },
   { title: 'product-card-eleven', route: '/product-card-eleven' },
   { title: 'product-card-twelve', route: '/product-card-twelve' },
+  { title: 'product-card-grid', route: '/product-card-grid' },
   { title: 'product-details-eight', route: '/product-details-eight' },
   { title: 'product-details-five', route: '/product-details-five' },
   { title: 'product-details-four', route: '/product-details-four' },
