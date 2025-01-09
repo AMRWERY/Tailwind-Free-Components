@@ -377,6 +377,12 @@ const commerce = ref([
   { title: 'product-details-six', route: '/product-details-six' },
   { title: 'product-details-ten', route: '/product-details-ten' },
   { title: 'product-details-three', route: '/product-details-three' },
+  { title: 'product-details-eleven', route: '/product-details-eleven' },
+  { title: 'product-details-twelve', route: '/product-details-twelve' },
+  { title: 'order-tracking-one', route: '/order-tracking-one' },
+  { title: 'order-tracking-two', route: '/order-tracking-two' },
+  { title: 'order-tracking-three', route: '/order-tracking-three' },
+  { title: 'order-tracking-four', route: '/order-tracking-four' },
   { title: 'groceries-product-grid', route: '/groceries-product-grid' },
 ])
 

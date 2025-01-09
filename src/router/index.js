@@ -284,6 +284,54 @@ const router = createRouter({
         ),
     },
     {
+      path: "/product-details-eleven",
+      name: "product-details-eleven",
+      component: () =>
+        import(
+          "../components/e-commerce/product-details/product-details-eleven.vue"
+        ),
+    },
+    {
+      path: "/product-details-twelve",
+      name: "product-details-twelve",
+      component: () =>
+        import(
+          "../components/e-commerce/product-details/product-details-twelve.vue"
+        ),
+    },
+    {
+      path: "/order-tracking-one",
+      name: "order-tracking-one",
+      component: () =>
+        import(
+          "../components/e-commerce/order-tracking/order-tracking-one.vue"
+        ),
+    },
+    {
+      path: "/order-tracking-two",
+      name: "order-tracking-two",
+      component: () =>
+        import(
+          "../components/e-commerce/order-tracking/order-tracking-two.vue"
+        ),
+    },
+    {
+      path: "/order-tracking-three",
+      name: "order-tracking-three",
+      component: () =>
+        import(
+          "../components/e-commerce/order-tracking/order-tracking-three.vue"
+        ),
+    },
+    {
+      path: "/order-tracking-four",
+      name: "order-tracking-four",
+      component: () =>
+        import(
+          "../components/e-commerce/order-tracking/order-tracking-four.vue"
+        ),
+    },
+    {
       path: "/groceries-product-grid",
       name: "groceries-product-grid",
       component: () =>
