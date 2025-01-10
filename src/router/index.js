@@ -838,6 +838,11 @@ const router = createRouter({
 
     //other
     {
+      path: "/range-component",
+      name: "range-component",
+      component: () => import("../components/range-component.vue"),
+    },
+    {
       path: "/stepper",
       name: "stepper",
       component: () => import("../components/stepper.vue"),

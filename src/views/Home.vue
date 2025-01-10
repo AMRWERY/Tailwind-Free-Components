@@ -496,6 +496,7 @@ const carousels = ref([
 ])
 
 const others = ref([
+  { title: 'range-component', route: '/range-component' },
   { title: 'stepper', route: '/stepper' },
   { title: 'charts', route: '/charts' },
   { title: 'tabs', route: '/tabs' },
