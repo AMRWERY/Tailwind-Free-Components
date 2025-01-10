@@ -836,12 +836,19 @@ const router = createRouter({
       component: () => import("../components/carousels/carousel-three.vue"),
     },
 
-    //other
+    //range
     {
-      path: "/range-component",
-      name: "range-component",
-      component: () => import("../components/range-component.vue"),
+      path: "/range-one",
+      name: "range-one",
+      component: () => import("../components/range/range-one.vue"),
     },
+    {
+      path: "/range-two",
+      name: "range-two",
+      component: () => import("../components/range/range-two.vue"),
+    },
+
+    //other
     {
       path: "/stepper",
       name: "stepper",

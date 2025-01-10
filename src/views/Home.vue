@@ -120,6 +120,20 @@
         </div>
       </div>
 
+      <!-- Range Components -->
+      <span class="text-3xl font-semibold text-blue-600 underline">Range Components</span>
+      <div class="grid grid-cols-1 mt-6 mb-16 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+        <div class="relative group transit" v-for="card in range" :key="card">
+          <router-link :to="card.route">
+            <div class="w-full h-20 overflow-hidden bg-gray-200 rounded-md group-hover:opacity-75">
+              <div class="flex items-center justify-center h-full">
+                <p class="text-2xl font-semibold truncate">{{ card.title }}</p>
+              </div>
+            </div>
+          </router-link>
+        </div>
+      </div>
+
       <!-- Others Components -->
       <span class="text-3xl font-semibold text-blue-600 underline">Others Components</span>
       <div class="grid grid-cols-1 mt-6 mb-16 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
@@ -495,8 +509,12 @@ const carousels = ref([
   { title: 'carousel-three', route: '/carousel-three' },
 ])
 
+const range = ref([
+  { title: 'range-one', route: '/range-one' },
+  { title: 'range-two', route: '/range-two' },
+])
+
 const others = ref([
-  { title: 'range-component', route: '/range-component' },
   { title: 'stepper', route: '/stepper' },
   { title: 'charts', route: '/charts' },
   { title: 'tabs', route: '/tabs' },
