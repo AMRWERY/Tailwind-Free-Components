@@ -855,6 +855,11 @@ const router = createRouter({
 
     //other
     {
+      path: "/pagination",
+      name: "pagination",
+      component: () => import("../components/pagination.vue"),
+    },
+    {
       path: "/stepper",
       name: "stepper",
       component: () => import("../components/stepper.vue"),

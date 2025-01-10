@@ -516,6 +516,7 @@ const range = ref([
 ])
 
 const others = ref([
+  { title: 'pagination', route: '/pagination' },
   { title: 'stepper', route: '/stepper' },
   { title: 'charts', route: '/charts' },
   { title: 'tabs', route: '/tabs' },
