@@ -49,6 +49,11 @@ const router = createRouter({
 
     //e-commerce
     {
+      path: "/category-filters",
+      name: "category-filters",
+      component: () => import("../components/e-commerce/category-filters.vue"),
+    },
+    {
       path: "/order-summary",
       name: "order-summary",
       component: () => import("../components/e-commerce/order-summary.vue"),
