@@ -406,7 +406,15 @@ const commerce = ref([
   { title: 'order-tracking-two', route: '/order-tracking-two' },
   { title: 'order-tracking-three', route: '/order-tracking-three' },
   { title: 'order-tracking-four', route: '/order-tracking-four' },
-  { title: 'groceries-product-grid', route: '/groceries-product-grid' },
+  { title: 'product-card-grid-one', route: '/product-card-grid-one' },
+  { title: 'product-card-grid-two', route: '/product-card-grid-two' },
+  { title: 'product-card-grid-three', route: '/product-card-grid-three' },
+  { title: 'product-card-grid-four', route: '/product-card-grid-four' },
+  { title: 'product-card-grid-five', route: '/product-card-grid-five' },
+  { title: 'product-card-grid-six', route: '/product-card-grid-six' },
+  { title: 'product-card-grid-seven', route: '/product-card-grid-seven' },
+  { title: 'product-card-grid-eight', route: '/product-card-grid-eight' },
+  { title: 'product-card-grid-nine', route: '/product-card-grid-nine' },
 ])
 
 const error = ref([

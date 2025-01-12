@@ -137,6 +137,78 @@ const router = createRouter({
         import("../components/e-commerce/checkout/checkout-three.vue"),
     },
     {
+      path: "/product-card-grid-one",
+      name: "product-card-grid-one",
+      component: () =>
+        import(
+          "../components/e-commerce/product-card-grid/product-card-grid-one.vue"
+        ),
+    },
+    {
+      path: "/product-card-grid-two",
+      name: "product-card-grid-two",
+      component: () =>
+        import(
+          "../components/e-commerce/product-card-grid/product-card-grid-two.vue"
+        ),
+    },
+    {
+      path: "/product-card-grid-three",
+      name: "product-card-grid-three",
+      component: () =>
+        import(
+          "../components/e-commerce/product-card-grid/product-card-grid-three.vue"
+        ),
+    },
+    {
+      path: "/product-card-grid-four",
+      name: "product-card-grid-four",
+      component: () =>
+        import(
+          "../components/e-commerce/product-card-grid/product-card-grid-four.vue"
+        ),
+    },
+    {
+      path: "/product-card-grid-five",
+      name: "product-card-grid-five",
+      component: () =>
+        import(
+          "../components/e-commerce/product-card-grid/product-card-grid-five.vue"
+        ),
+    },
+    {
+      path: "/product-card-grid-six",
+      name: "product-card-grid-six",
+      component: () =>
+        import(
+          "../components/e-commerce/product-card-grid/product-card-grid-six.vue"
+        ),
+    },
+    {
+      path: "/product-card-grid-seven",
+      name: "product-card-grid-seven",
+      component: () =>
+        import(
+          "../components/e-commerce/product-card-grid/product-card-grid-seven.vue"
+        ),
+    },
+    {
+      path: "/product-card-grid-eight",
+      name: "product-card-grid-eight",
+      component: () =>
+        import(
+          "../components/e-commerce/product-card-grid/product-card-grid-eight.vue"
+        ),
+    },
+    {
+      path: "/product-card-grid-nine",
+      name: "product-card-grid-nine",
+      component: () =>
+        import(
+          "../components/e-commerce/product-card-grid/product-card-grid-nine.vue"
+        ),
+    },
+    {
       path: "/product-card-eight",
       name: "product-card-eight",
       component: () =>
@@ -397,12 +469,6 @@ const router = createRouter({
         import(
           "../components/e-commerce/order-tracking/order-tracking-four.vue"
         ),
-    },
-    {
-      path: "/groceries-product-grid",
-      name: "groceries-product-grid",
-      component: () =>
-        import("../components/e-commerce/groceries-product-grid.vue"),
     },
 
     //error-404
