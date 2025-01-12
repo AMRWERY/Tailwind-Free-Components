@@ -215,6 +215,62 @@ const router = createRouter({
         import("../components/e-commerce/product-card/product-card-twelve.vue"),
     },
     {
+      path: "/product-details-thirteen",
+      name: "product-details-thirteen",
+      component: () =>
+        import(
+          "../components/e-commerce/product-details/product-details-thirteen.vue"
+        ),
+    },
+    {
+      path: "/product-details-fourteen",
+      name: "product-details-fourteen",
+      component: () =>
+        import(
+          "../components/e-commerce/product-details/product-details-fourteen.vue"
+        ),
+    },
+    {
+      path: "/product-details-fifteen",
+      name: "product-details-fifteen",
+      component: () =>
+        import(
+          "../components/e-commerce/product-details/product-details-fifteen.vue"
+        ),
+    },
+    {
+      path: "/product-details-sixteen",
+      name: "product-details-sixteen",
+      component: () =>
+        import(
+          "../components/e-commerce/product-details/product-details-sixteen.vue"
+        ),
+    },
+    {
+      path: "/product-details-seventeen",
+      name: "product-details-seventeen",
+      component: () =>
+        import(
+          "../components/e-commerce/product-details/product-details-seventeen.vue"
+        ),
+    },
+    {
+      path: "/product-details-eighteen",
+      name: "product-details-eighteen",
+      component: () =>
+        import(
+          "../components/e-commerce/product-details/product-details-eighteen.vue"
+        ),
+    },
+    {
+      path: "/product-details-nineteen",
+      name: "product-details-nineteen",
+      component: () =>
+        import(
+          "../components/e-commerce/product-details/product-details-nineteen.vue"
+        ),
+    },
+    {
       path: "/product-details-eight",
       name: "product-details-eight",
       component: () =>
