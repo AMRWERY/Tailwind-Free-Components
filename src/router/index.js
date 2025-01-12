@@ -179,6 +179,48 @@ const router = createRouter({
         import("../components/e-commerce/checkout/checkout-three.vue"),
     },
     {
+      path: "/checkout-four",
+      name: "checkout-four",
+      component: () =>
+        import("../components/e-commerce/checkout/checkout-four.vue"),
+    },
+    {
+      path: "/checkout-five",
+      name: "checkout-five",
+      component: () =>
+        import("../components/e-commerce/checkout/checkout-five.vue"),
+    },
+    {
+      path: "/checkout-six",
+      name: "checkout-six",
+      component: () =>
+        import("../components/e-commerce/checkout/checkout-six.vue"),
+    },
+    {
+      path: "/checkout-seven",
+      name: "checkout-seven",
+      component: () =>
+        import("../components/e-commerce/checkout/checkout-seven.vue"),
+    },
+    {
+      path: "/checkout-eight",
+      name: "checkout-eight",
+      component: () =>
+        import("../components/e-commerce/checkout/checkout-eight.vue"),
+    },
+    {
+      path: "/checkout-nine",
+      name: "checkout-nine",
+      component: () =>
+        import("../components/e-commerce/checkout/checkout-nine.vue"),
+    },
+    {
+      path: "/checkout-ten",
+      name: "checkout-ten",
+      component: () =>
+        import("../components/e-commerce/checkout/checkout-ten.vue"),
+    },
+    {
       path: "/product-card-grid-one",
       name: "product-card-grid-one",
       component: () =>
