@@ -89,6 +89,48 @@ const router = createRouter({
         import("../components/e-commerce/payment/payment-form-five.vue"),
     },
     {
+      path: "/cart-fourteen",
+      name: "cart-fourteen",
+      component: () =>
+        import("../components/e-commerce/cart/cart-fourteen.vue"),
+    },
+    {
+      path: "/cart-thirteen",
+      name: "cart-thirteen",
+      component: () =>
+        import("../components/e-commerce/cart/cart-thirteen.vue"),
+    },
+    {
+      path: "/cart-twelve",
+      name: "cart-twelve",
+      component: () => import("../components/e-commerce/cart/cart-twelve.vue"),
+    },
+    {
+      path: "/cart-eleven",
+      name: "cart-eleven",
+      component: () => import("../components/e-commerce/cart/cart-eleven.vue"),
+    },
+    {
+      path: "/cart-ten",
+      name: "cart-ten",
+      component: () => import("../components/e-commerce/cart/cart-ten.vue"),
+    },
+    {
+      path: "/cart-nine",
+      name: "cart-nine",
+      component: () => import("../components/e-commerce/cart/cart-nine.vue"),
+    },
+    {
+      path: "/cart-eight",
+      name: "cart-eight",
+      component: () => import("../components/e-commerce/cart/cart-eight.vue"),
+    },
+    {
+      path: "/cart-seven",
+      name: "cart-seven",
+      component: () => import("../components/e-commerce/cart/cart-seven.vue"),
+    },
+    {
       path: "/cart-six",
       name: "cart-six",
       component: () => import("../components/e-commerce/cart/cart-six.vue"),
