@@ -1131,11 +1131,6 @@ const router = createRouter({
       component: () => import("../components/breadcrumbs-one.vue"),
     },
     {
-      path: "/dashboard",
-      name: "Dashboard",
-      component: () => import("../components/Dashboard.vue"),
-    },
-    {
       path: "/daily-growth-chart",
       name: "daily-growth-chart",
       component: () => import("../components/daily-growth-chart.vue"),

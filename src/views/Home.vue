@@ -560,7 +560,6 @@ const others = ref([
   { title: 'PricingCard', route: '/pricing-card' },
   { title: 'TeamCards', route: '/team-cards' },
   { title: 'breadcrumbs-one', route: '/breadcrumbs-one' },
-  { title: 'Dashboard', route: '/dashboard' },
   { title: 'daily-growth-chart', route: '/daily-growth-chart' },
   { title: 'range-slider', route: '/range-slider' },
   { title: 'skeleton-loader', route: '/skeleton-loader' },
