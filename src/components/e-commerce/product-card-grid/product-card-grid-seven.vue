@@ -3,7 +3,6 @@
         <div class="max-w-xl py-4 mx-auto font-sans lg:max-w-6xl md:max-w-4xl">
             <h2 class="mb-10 text-2xl font-bold text-center text-gray-800 sm:text-3xl">Top Categories</h2>
             <div class="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4 sm:gap-6">
-
                 <div
                     class="relative z-50 p-3 overflow-hidden bg-gray-100 rounded-lg cursor-pointer group hover:before:bg-black before:absolute before:inset-0 before:opacity-20 before:transition-all">
                     <div class="w-full h-[200px] sm:h-[300px] overflow-hidden mx-auto">

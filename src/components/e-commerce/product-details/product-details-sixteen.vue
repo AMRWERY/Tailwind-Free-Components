@@ -140,7 +140,6 @@
 
                     <div>
                         <h3 class="text-xl font-bold text-gray-800">Quantity</h3>
-
                         <div class="flex mt-4 overflow-hidden border divide-x rounded w-max">
                             <button type="button" class="w-12 h-10 font-semibold bg-gray-100">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="inline w-3 fill-current"

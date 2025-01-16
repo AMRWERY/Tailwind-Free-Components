@@ -1046,6 +1046,11 @@ const router = createRouter({
       name: "carousel-three",
       component: () => import("../components/carousels/carousel-three.vue"),
     },
+    {
+      path: "/carousel-five",
+      name: "carousel-five",
+      component: () => import("../components/carousels/carousel-five.vue"),
+    },
 
     //range
     {

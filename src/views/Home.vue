@@ -538,6 +538,7 @@ const carousels = ref([
   { title: 'carousel-one', route: '/carousel-one' },
   { title: 'carousel-two', route: '/carousel-two' },
   { title: 'carousel-three', route: '/carousel-three' },
+  { title: 'carousel-five', route: '/carousel-five' },
 ])
 
 const range = ref([
