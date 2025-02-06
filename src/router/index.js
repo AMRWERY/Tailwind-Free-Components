@@ -619,6 +619,12 @@ const router = createRouter({
 
     //hero-section
     {
+      path: "/coming-soon-hero-section",
+      name: "coming-soon-hero-section",
+      component: () =>
+        import("../components/hero-section/coming-soon-hero-section.vue"),
+    },
+    {
       path: "/hero-video",
       name: "hero-video",
       component: () => import("../components/hero-section/hero-video.vue"),

@@ -448,6 +448,7 @@ const error = ref([
 ])
 
 const hero = ref([
+  { title: 'coming-soon-hero-section', route: '/coming-soon-hero-section' },
   { title: 'hero-video', route: '/hero-video' },
   { title: 'HeroSectionFive', route: '/hero-section-five' },
   { title: 'HeroSectionFour', route: '/hero-section-four' },
