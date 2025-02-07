@@ -888,6 +888,12 @@ const router = createRouter({
         import("../components/layouts/dashboard-layouts/dashboard-two.vue"),
     },
     {
+      path: "/dashboard-three",
+      name: "dashboard-three",
+      component: () =>
+        import("../components/layouts/dashboard-layouts/dashboard-three.vue"),
+    },
+    {
       path: "/navbar",
       name: "navbar",
       component: () => import("../components/layouts/navbar.vue"),
