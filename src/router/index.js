@@ -876,6 +876,12 @@ const router = createRouter({
 
     //layouts
     {
+      path: "/dashboard-one",
+      name: "dashboard-one",
+      component: () =>
+        import("../components/layouts/dashboard-layouts/dashboard-one.vue"),
+    },
+    {
       path: "/navbar",
       name: "navbar",
       component: () => import("../components/layouts/navbar.vue"),

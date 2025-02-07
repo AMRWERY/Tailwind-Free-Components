@@ -502,6 +502,7 @@ const userProfile = ref([
 ])
 
 const layouts = ref([
+  { title: 'dashboard-one', route: '/dashboard-one' },
   { title: 'navbar', route: '/navbar' },
   { title: 'sidebar-with-navbar', route: '/sidebar-with-navbar' },
   { title: 'FooterSix', route: '/footer-six' },
