@@ -551,6 +551,7 @@ const range = ref([
 ])
 
 const others = ref([
+  { title: 'date-picker', route: '/date-picker' },
   { title: 'dialog', route: '/dialog' },
   { title: 'pagination', route: '/pagination' },
   { title: 'stepper', route: '/stepper' },

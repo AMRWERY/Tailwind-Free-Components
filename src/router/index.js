@@ -1090,6 +1090,11 @@ const router = createRouter({
 
     //other
     {
+      path: "/date-picker",
+      name: "date-picker",
+      component: () => import("../components/date-picker.vue"),
+    },
+    {
       path: "/dialog",
       name: "dialog",
       component: () => import("../components/dialog.vue"),
