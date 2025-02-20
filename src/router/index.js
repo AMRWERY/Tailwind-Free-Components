@@ -379,6 +379,14 @@ const router = createRouter({
         ),
     },
     {
+      path: "/product-card-fourteen",
+      name: "product-card-fourteen",
+      component: () =>
+        import(
+          "../components/e-commerce/product-card/product-card-fourteen.vue"
+        ),
+    },
+    {
       path: "/product-details-thirteen",
       name: "product-details-thirteen",
       component: () =>
