@@ -191,7 +191,7 @@ function handleRemove() {
           width: calc(30% - 1px);
           clear: both;
           border-right:solid thin rgba(255,255,255,0.3);
-          height:50%;
+          height:56%;
           background: #BC3B59;
           transition: transform 0.5s, background 0.5s;
           &:hover{
@@ -249,6 +249,7 @@ function handleRemove() {
         opacity: 1;
         transform: scale(1);
         transform: translateY(0);
+        display: flex;
       }
     }
     .contents{
