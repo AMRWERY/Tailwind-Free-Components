@@ -258,6 +258,7 @@ function handleRemove() {
       transform: scale(0.5);
       transform: translateY(-200%);
       transition: opacity 0.2s, transform 0.8s;
+      display: flex;
       table{
         text-align:left;
         width:100%;
