@@ -920,6 +920,11 @@ const router = createRouter({
       component: () => import("../components/layouts/sidebar-with-navbar.vue"),
     },
     {
+      path: "/sidebar-with-navbar-new",
+      name: "sidebar-with-navbar-new",
+      component: () => import("../components/layouts/sidebar-with-navbar-new.vue"),
+    },
+    {
       path: "/footer-six",
       name: "FooterSix",
       component: () => import("../components/layouts/FooterSix.vue"),

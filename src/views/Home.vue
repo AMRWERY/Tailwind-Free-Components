@@ -509,6 +509,7 @@ const layouts = ref([
   { title: 'dashboard-three', route: '/dashboard-three' },
   { title: 'navbar', route: '/navbar' },
   { title: 'sidebar-with-navbar', route: '/sidebar-with-navbar' },
+  { title: 'sidebar-with-navbar-new', route: '/sidebar-with-navbar-new' },
   { title: 'FooterSix', route: '/footer-six' },
   { title: 'FooterThree', route: '/footer-three' },
   { title: 'FooterFive', route: '/footer-five' },
