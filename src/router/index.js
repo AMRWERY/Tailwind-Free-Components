@@ -1106,6 +1106,11 @@ const router = createRouter({
 
     //other
     {
+      path: "/auto-complete-input",
+      name: "auto-complete-input",
+      component: () => import("../components/auto-complete-input.vue"),
+    },
+    {
       path: "/date-picker",
       name: "date-picker",
       component: () => import("../components/date-picker.vue"),
