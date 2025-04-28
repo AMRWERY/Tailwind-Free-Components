@@ -910,6 +910,12 @@ const router = createRouter({
         import("../components/layouts/dashboard-layouts/dashboard-three.vue"),
     },
     {
+      path: "/dashboard-four",
+      name: "dashboard-four",
+      component: () =>
+        import("../components/layouts/dashboard-layouts/dashboard-four.vue"),
+    },
+    {
       path: "/navbar",
       name: "navbar",
       component: () => import("../components/layouts/navbar.vue"),

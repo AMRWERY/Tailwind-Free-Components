@@ -507,6 +507,7 @@ const layouts = ref([
   { title: 'dashboard-one', route: '/dashboard-one' },
   { title: 'dashboard-two', route: '/dashboard-two' },
   { title: 'dashboard-three', route: '/dashboard-three' },
+  { title: 'dashboard-four', route: '/dashboard-four' },
   { title: 'navbar', route: '/navbar' },
   { title: 'sidebar-with-navbar', route: '/sidebar-with-navbar' },
   { title: 'sidebar-with-navbar-new', route: '/sidebar-with-navbar-new' },
