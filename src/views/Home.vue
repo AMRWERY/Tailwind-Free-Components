@@ -555,6 +555,7 @@ const range = ref([
 ])
 
 const others = ref([
+  { title: 'text-editor', route: '/text-editor' },
   { title: 'auto-complete-input', route: '/auto-complete-input' },
   { title: 'date-picker', route: '/date-picker' },
   { title: 'dialog', route: '/dialog' },

@@ -1117,6 +1117,11 @@ const router = createRouter({
 
     //other
     {
+      path: "/text-editor",
+      name: "text-editor",
+      component: () => import("../components/text-editor.vue"),
+    },
+    {
       path: "/auto-complete-input",
       name: "auto-complete-input",
       component: () => import("../components/auto-complete-input.vue"),
