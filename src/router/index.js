@@ -928,7 +928,8 @@ const router = createRouter({
     {
       path: "/sidebar-with-navbar-new",
       name: "sidebar-with-navbar-new",
-      component: () => import("../components/layouts/sidebar-with-navbar-new.vue"),
+      component: () =>
+        import("../components/layouts/sidebar-with-navbar-new.vue"),
     },
     {
       path: "/footer-six",
@@ -1116,6 +1117,11 @@ const router = createRouter({
     },
 
     //other
+    {
+      path: "/users-comments",
+      name: "users-comments",
+      component: () => import("../components/users-comments.vue"),
+    },
     {
       path: "/text-editor",
       name: "text-editor",
