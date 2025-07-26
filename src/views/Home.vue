@@ -1,16 +1,17 @@
 <template>
-  <div class="relative">
-    <!-- toggle theme -->
-    <button type="button" @click="toggleTheme"
-      class="absolute right-0 p-1 mr-4 text-gray-400 rounded-full top-4 hover:text-gray-700">
-      <i :class="theme === 'dark' ? 'fa-solid fa-sun fa-xl' : 'fa-solid fa-moon fa-xl'"></i>
-    </button>
-
-    <div class="max-w-2xl px-4 py-16 mx-auto sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+  <div>
+    <div class="max-w-2xl px-4 py-16 mx-auto space-y-10 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
       <!-- components -->
       <!-- Alerts Components -->
-      <span class="text-3xl font-semibold text-blue-600 underline">Alerts Components</span>
-      <div class="grid grid-cols-1 mt-6 mb-16 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+      <div class="flex justify-center">
+        <div class="warpper">
+          <div class="section-title">
+            <span class="text-3xl font-semibold">Alerts Components</span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-1 pb-8 mt-6 border-b border-gray-600 dark:border-gray-100 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
         <div class="relative group transit" v-for="alert in alerts" :key="alert">
           <router-link :to="alert.route">
             <div class="w-full h-20 overflow-hidden bg-gray-200 rounded-md group-hover:opacity-75">
@@ -23,8 +24,15 @@
       </div>
 
       <!-- E-commerce Components -->
-      <span class="text-3xl font-semibold text-blue-600 underline">E-commerce Components</span>
-      <div class="grid grid-cols-1 mt-6 mb-16 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+      <div class="flex justify-center">
+        <div class="warpper">
+          <div class="section-title">
+            <span class="text-3xl font-semibold">E-commerce Components</span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-1 pb-8 mt-6 border-b border-gray-600 dark:border-gray-100 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
         <div class="relative group transit" v-for="card in commerce" :key="card">
           <router-link :to="card.route">
             <div class="w-full h-20 overflow-hidden bg-gray-200 rounded-md group-hover:opacity-75">
@@ -37,8 +45,15 @@
       </div>
 
       <!-- Error 404 Components -->
-      <span class="text-3xl font-semibold text-blue-600 underline">Error 404 Components</span>
-      <div class="grid grid-cols-1 mt-6 mb-16 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+      <div class="flex justify-center">
+        <div class="warpper">
+          <div class="section-title">
+            <span class="text-3xl font-semibold">Error 404 Components</span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-1 pb-8 mt-6 border-b border-gray-600 dark:border-gray-100 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
         <div class="relative group transit" v-for="card in error" :key="card">
           <router-link :to="card.route">
             <div class="w-full h-20 overflow-hidden bg-gray-200 rounded-md group-hover:opacity-75">
@@ -51,8 +66,15 @@
       </div>
 
       <!-- Hero Section Components -->
-      <span class="text-3xl font-semibold text-blue-600 underline">Hero Section Components</span>
-      <div class="grid grid-cols-1 mt-6 mb-16 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+      <div class="flex justify-center">
+        <div class="warpper">
+          <div class="section-title">
+            <span class="text-3xl font-semibold">Hero Section Components</span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-1 pb-8 mt-6 border-b border-gray-600 dark:border-gray-100 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
         <div class="relative group transit" v-for="card in hero" :key="card">
           <router-link :to="card.route">
             <div class="w-full h-20 overflow-hidden bg-gray-200 rounded-md group-hover:opacity-75">
@@ -65,8 +87,15 @@
       </div>
 
       <!-- Forms Components -->
-      <span class="text-3xl font-semibold text-blue-600 underline">Forms Components</span>
-      <div class="grid grid-cols-1 mt-6 mb-16 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+      <div class="flex justify-center">
+        <div class="warpper">
+          <div class="section-title">
+            <span class="text-3xl font-semibold">Forms Components</span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-1 pb-8 mt-6 border-b border-gray-600 dark:border-gray-100 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
         <div class="relative group transit" v-for="form in forms" :key="form">
           <router-link :to="form.route">
             <div class="w-full h-20 overflow-hidden bg-gray-200 rounded-md group-hover:opacity-75">
@@ -79,8 +108,15 @@
       </div>
 
       <!-- User Profile Components -->
-      <span class="text-3xl font-semibold text-blue-600 underline">User Profile Components</span>
-      <div class="grid grid-cols-1 mt-6 mb-16 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+      <div class="flex justify-center">
+        <div class="warpper">
+          <div class="section-title">
+            <span class="text-3xl font-semibold">User Profile Components</span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-1 pb-8 mt-6 border-b border-gray-600 dark:border-gray-100 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
         <div class="relative group transit" v-for="card in userProfile" :key="card">
           <router-link :to="card.route">
             <div class="w-full h-20 overflow-hidden bg-gray-200 rounded-md group-hover:opacity-75">
@@ -93,8 +129,15 @@
       </div>
 
       <!-- Layouts Components -->
-      <span class="text-3xl font-semibold text-blue-600 underline">Layouts Components</span>
-      <div class="grid grid-cols-1 mt-6 mb-16 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+      <div class="flex justify-center">
+        <div class="warpper">
+          <div class="section-title">
+            <span class="text-3xl font-semibold">Layouts Components</span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-1 pb-8 mt-6 border-b border-gray-600 dark:border-gray-100 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
         <div class="relative group transit" v-for="layout in layouts" :key="layout">
           <router-link :to="layout.route">
             <div class="w-full h-20 overflow-hidden bg-gray-200 rounded-md group-hover:opacity-75">
@@ -107,8 +150,15 @@
       </div>
 
       <!-- Carousels Components -->
-      <span class="text-3xl font-semibold text-blue-600 underline">Carousels Components</span>
-      <div class="grid grid-cols-1 mt-6 mb-16 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+      <div class="flex justify-center">
+        <div class="warpper">
+          <div class="section-title">
+            <span class="text-3xl font-semibold">Carousels Components</span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-1 pb-8 mt-6 border-b border-gray-600 dark:border-gray-100 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
         <div class="relative group transit" v-for="carousel in carousels" :key="carousel">
           <router-link :to="carousel.route">
             <div class="w-full h-20 overflow-hidden bg-gray-200 rounded-md group-hover:opacity-75">
@@ -121,8 +171,15 @@
       </div>
 
       <!-- Range Components -->
-      <span class="text-3xl font-semibold text-blue-600 underline">Range Components</span>
-      <div class="grid grid-cols-1 mt-6 mb-16 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+      <div class="flex justify-center">
+        <div class="warpper">
+          <div class="section-title">
+            <span class="text-3xl font-semibold">Range Components</span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-1 pb-8 mt-6 border-b border-gray-600 dark:border-gray-100 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
         <div class="relative group transit" v-for="card in range" :key="card">
           <router-link :to="card.route">
             <div class="w-full h-20 overflow-hidden bg-gray-200 rounded-md group-hover:opacity-75">
@@ -135,8 +192,15 @@
       </div>
 
       <!-- Others Components -->
-      <span class="text-3xl font-semibold text-blue-600 underline">Others Components</span>
-      <div class="grid grid-cols-1 mt-6 mb-16 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+      <div class="flex justify-center">
+        <div class="warpper">
+          <div class="section-title">
+            <span class="text-3xl font-semibold">Others Components</span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-1 pb-8 mt-6 border-b border-gray-600 dark:border-gray-100 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
         <div class="relative group transit" v-for="other in others" :key="other">
           <router-link :to="other.route">
             <div class="w-full h-20 overflow-hidden bg-gray-200 rounded-md group-hover:opacity-75">
@@ -149,8 +213,15 @@
       </div>
 
       <!-- Rating Components -->
-      <span class="text-3xl font-semibold text-blue-600 underline">Rating Components</span>
-      <div class="grid grid-cols-1 mt-6 mb-16 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+      <div class="flex justify-center">
+        <div class="warpper">
+          <div class="section-title">
+            <span class="text-3xl font-semibold">Rating Components</span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-1 pb-8 mt-6 border-b border-gray-600 dark:border-gray-100 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
         <div class="relative group transit" v-for="rate in rating" :key="rate">
           <router-link :to="rate.route">
             <div class="w-full h-20 overflow-hidden bg-gray-200 rounded-md group-hover:opacity-75">
@@ -163,8 +234,15 @@
       </div>
 
       <!-- Tooltip Components -->
-      <span class="text-3xl font-semibold text-blue-600 underline">Tooltip Components</span>
-      <div class="grid grid-cols-1 mt-6 mb-16 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+      <div class="flex justify-center">
+        <div class="warpper">
+          <div class="section-title">
+            <span class="text-3xl font-semibold">Tooltip Components</span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-1 pb-8 mt-6 border-b border-gray-600 dark:border-gray-100 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
         <div class="relative group transit" v-for="component in tooltip" :key="component">
           <router-link :to="component.route">
             <div class="w-full h-20 overflow-hidden bg-gray-200 rounded-md group-hover:opacity-75">
@@ -177,8 +255,15 @@
       </div>
 
       <!-- Spinner Components -->
-      <span class="text-3xl font-semibold text-blue-600 underline">Spinner Components</span>
-      <div class="grid grid-cols-1 mt-6 mb-16 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+      <div class="flex justify-center">
+        <div class="warpper">
+          <div class="section-title">
+            <span class="text-3xl font-semibold">Spinner Components</span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-1 pb-8 mt-6 border-b border-gray-600 dark:border-gray-100 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
         <div class="relative group transit" v-for="component in spinner" :key="component">
           <router-link :to="component.route">
             <div class="w-full h-20 overflow-hidden bg-gray-200 rounded-md group-hover:opacity-75">
@@ -191,8 +276,15 @@
       </div>
 
       <!-- Tables Components -->
-      <span class="text-3xl font-semibold text-blue-600 underline">Tables Components</span>
-      <div class="grid grid-cols-1 mt-6 mb-16 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+      <div class="flex justify-center">
+        <div class="warpper">
+          <div class="section-title">
+            <span class="text-3xl font-semibold">Tables Components</span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-1 pb-8 mt-6 border-b border-gray-600 dark:border-gray-100 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
         <div class="relative group transit" v-for="component in tables" :key="component">
           <router-link :to="component.route">
             <div class="w-full h-20 overflow-hidden bg-gray-200 rounded-md group-hover:opacity-75">
@@ -205,8 +297,15 @@
       </div>
 
       <!-- Banners Components -->
-      <span class="text-3xl font-semibold text-blue-600 underline">Banners Components</span>
-      <div class="grid grid-cols-1 mt-6 mb-16 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+      <div class="flex justify-center">
+        <div class="warpper">
+          <div class="section-title">
+            <span class="text-3xl font-semibold">Banners Components</span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-1 pb-8 mt-6 border-b border-gray-600 dark:border-gray-100 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
         <div class="relative group transit" v-for="component in banners" :key="component">
           <router-link :to="component.route">
             <div class="w-full h-20 overflow-hidden bg-gray-200 rounded-md group-hover:opacity-75">
@@ -219,8 +318,15 @@
       </div>
 
       <!-- Blogs Components -->
-      <span class="text-3xl font-semibold text-blue-600 underline">Blogs Components</span>
-      <div class="grid grid-cols-1 mt-6 mb-16 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+      <div class="flex justify-center">
+        <div class="warpper">
+          <div class="section-title">
+            <span class="text-3xl font-semibold">Blogs Components</span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-1 pb-8 mt-6 border-b border-gray-600 dark:border-gray-100 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
         <div class="relative group transit" v-for="component in blogs" :key="component">
           <router-link :to="component.route">
             <div class="w-full h-20 overflow-hidden bg-gray-200 rounded-md group-hover:opacity-75">
@@ -233,8 +339,15 @@
       </div>
 
       <!-- Collections Components -->
-      <span class="text-3xl font-semibold text-blue-600 underline">Collections Components</span>
-      <div class="grid grid-cols-1 mt-6 mb-16 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+      <div class="flex justify-center">
+        <div class="warpper">
+          <div class="section-title">
+            <span class="text-3xl font-semibold">Collections Components</span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-1 pb-8 mt-6 border-b border-gray-600 dark:border-gray-100 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
         <div class="relative group transit" v-for="component in collections" :key="component">
           <router-link :to="component.route">
             <div class="w-full h-20 overflow-hidden bg-gray-200 rounded-md group-hover:opacity-75">
@@ -247,8 +360,15 @@
       </div>
 
       <!-- Content Components -->
-      <span class="text-3xl font-semibold text-blue-600 underline">Content Components</span>
-      <div class="grid grid-cols-1 mt-6 mb-16 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+      <div class="flex justify-center">
+        <div class="warpper">
+          <div class="section-title">
+            <span class="text-3xl font-semibold">Content Components</span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-1 pb-8 mt-6 border-b border-gray-600 dark:border-gray-100 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
         <div class="relative group transit" v-for="component in content" :key="component">
           <router-link :to="component.route">
             <div class="w-full h-20 overflow-hidden bg-gray-200 rounded-md group-hover:opacity-75">
@@ -261,8 +381,15 @@
       </div>
 
       <!-- Call to Action Components -->
-      <span class="text-3xl font-semibold text-blue-600 underline">Call to Action Components</span>
-      <div class="grid grid-cols-1 mt-6 mb-16 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+      <div class="flex justify-center">
+        <div class="warpper">
+          <div class="section-title">
+            <span class="text-3xl font-semibold">Call to Action Components</span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-1 pb-8 mt-6 border-b border-gray-600 dark:border-gray-100 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
         <div class="relative group transit" v-for="component in callToAction" :key="component">
           <router-link :to="component.route">
             <div class="w-full h-20 overflow-hidden bg-gray-200 rounded-md group-hover:opacity-75">
@@ -275,8 +402,15 @@
       </div>
 
       <!-- F-A-Q Components -->
-      <span class="text-3xl font-semibold text-blue-600 underline">F-A-Q Components</span>
-      <div class="grid grid-cols-1 mt-6 mb-16 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+      <div class="flex justify-center">
+        <div class="warpper">
+          <div class="section-title">
+            <span class="text-3xl font-semibold">F-A-Q Components</span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-1 pb-8 mt-6 border-b border-gray-600 dark:border-gray-100 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
         <div class="relative group transit" v-for="component in faq" :key="component">
           <router-link :to="component.route">
             <div class="w-full h-20 overflow-hidden bg-gray-200 rounded-md group-hover:opacity-75">
@@ -289,8 +423,15 @@
       </div>
 
       <!-- Contact Components -->
-      <span class="text-3xl font-semibold text-blue-600 underline">Contact Components</span>
-      <div class="grid grid-cols-1 mt-6 mb-16 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+      <div class="flex justify-center">
+        <div class="warpper">
+          <div class="section-title">
+            <span class="text-3xl font-semibold">Contact Forms Components</span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-1 pb-8 mt-6 border-b border-gray-600 dark:border-gray-100 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
         <div class="relative group transit" v-for="component in contact" :key="component">
           <router-link :to="component.route">
             <div class="w-full h-20 overflow-hidden bg-gray-200 rounded-md group-hover:opacity-75">
@@ -303,8 +444,14 @@
       </div>
 
       <!-- Buttons Components -->
-      <span class="text-3xl font-semibold text-blue-600 underline">Buttons Components</span>
-      <div class="grid grid-cols-1 mt-6 mb-16 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+      <div class="flex justify-center">
+        <div class="warpper">
+          <div class="section-title">
+            <span class="text-3xl font-semibold">Buttons Components</span>
+          </div>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 mt-6 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
         <div class="relative group transit" v-for="component in buttons" :key="component">
           <router-link :to="component.route">
             <div class="w-full h-20 overflow-hidden bg-gray-200 rounded-md group-hover:opacity-75">
@@ -315,32 +462,12 @@
           </router-link>
         </div>
       </div>
-
     </div>
   </div>
 </template>
 
 <script setup>
 import { ref } from "vue";
-
-const theme = ref('light');
-
-const toggleTheme = () => {
-  theme.value = theme.value === 'dark' ? 'light' : 'dark';
-  sessionStorage.setItem('theme', theme.value);
-  updateThemeClasses(theme.value);
-};
-
-const updateThemeClasses = (newTheme) => {
-  const body = document.querySelector('body');
-  if (newTheme === 'dark') {
-    body.classList.add('dark');
-  } else {
-    body.classList.remove('dark');
-  }
-};
-
-updateThemeClasses(sessionStorage.getItem('theme') || 'light');
 
 //components
 const alerts = ref([
